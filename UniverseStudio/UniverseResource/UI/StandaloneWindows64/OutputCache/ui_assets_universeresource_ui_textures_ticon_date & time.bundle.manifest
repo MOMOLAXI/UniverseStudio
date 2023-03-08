@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3401127368
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 014ad0adbc2aa0d456df0996412ced8c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/UniverseResource/UI/Textures/TIcon/Date & Time/Clock.png
+Dependencies: []

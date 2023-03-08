@@ -1,0 +1,70 @@
+ManifestFileVersion: 0
+CRC: 3381868732
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f0195d2f614cf507fb9f9e21488c4d21
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 305175da29529730475486abeeec9413
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: eb7cf53b7c3b36a4b9f4d2b688942503, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4b4bbdcf873a4164eabf85f0d7820717, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: eb3339e2f5f66dd42b96285c9d99c82f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.VertexGradient
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.RectOffset
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+Assets:
+- Assets/UniverseResource/UI/Prefabs/Notification/Fading Notification.prefab
+- Assets/UniverseResource/UI/Prefabs/Notification/Popup Notification.prefab
+- Assets/UniverseResource/UI/Prefabs/Notification/Sliding Notification.prefab
+Dependencies:
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_assets_universeresource_ui_animations_notificationsanim.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_assets_universeresource_ui_textures_ticon_common.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_assets_universeresource_ui_textures_tshadow.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_share_assets_editor_icons.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_share_assets_resources.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_share_assets_resources_fonts.bundle

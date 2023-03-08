@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 4082870465
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6d87a99f70ba598e5ed7ed84228fe705
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2ed402c1a72d2f31cb3bb6238f1be862
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b375103e3437031408a5c7d7c17d04a6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5e4a4384d3c229846b0d84dc8ec948dd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: Michsky.MUIP.PieChart/PieChartDataNode
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.VertexGradient
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.RectOffset
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+Assets:
+- Assets/UniverseResource/UI/Prefabs/Charts/Chart Indicator.prefab
+- Assets/UniverseResource/UI/Prefabs/Charts/Pie Chart.prefab
+Dependencies:
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_assets_universeresource_ui_textures_tborder_radial_32px.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_share_assets_editor_icons.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_share_assets_resources_fonts.bundle

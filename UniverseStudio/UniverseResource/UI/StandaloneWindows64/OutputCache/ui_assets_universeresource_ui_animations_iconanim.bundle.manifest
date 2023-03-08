@@ -1,0 +1,48 @@
+ManifestFileVersion: 0
+CRC: 3877079831
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6f44469074e951f98a6f288a7af57ad0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 976262f0cce69b6c33d86a53dfc198ce
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/UniverseResource/UI/Animations/IconAnim/Notification Bell Out.anim
+- Assets/UniverseResource/UI/Animations/IconAnim/Sand Clock Flip.anim
+- Assets/UniverseResource/UI/Animations/IconAnim/Slider Out.anim
+- Assets/UniverseResource/UI/Animations/IconAnim/Notification Bell.controller
+- Assets/UniverseResource/UI/Animations/IconAnim/Window Out.anim
+- Assets/UniverseResource/UI/Animations/IconAnim/Lock.controller
+- Assets/UniverseResource/UI/Animations/IconAnim/Hamburger to Exit.controller
+- Assets/UniverseResource/UI/Animations/IconAnim/Window In.anim
+- Assets/UniverseResource/UI/Animations/IconAnim/Load.controller
+- Assets/UniverseResource/UI/Animations/IconAnim/Message Bubbles.controller
+- Assets/UniverseResource/UI/Animations/IconAnim/HP Normal.anim
+- Assets/UniverseResource/UI/Animations/IconAnim/Sand Clock.controller
+- Assets/UniverseResource/UI/Animations/IconAnim/Sand Clock Change.anim
+- Assets/UniverseResource/UI/Animations/IconAnim/HTE Exit.anim
+- Assets/UniverseResource/UI/Animations/IconAnim/MB Fade.anim
+- Assets/UniverseResource/UI/Animations/IconAnim/HP Pop.anim
+- Assets/UniverseResource/UI/Animations/IconAnim/Notification Bell In.anim
+- Assets/UniverseResource/UI/Animations/IconAnim/Yes to No.controller
+- Assets/UniverseResource/UI/Animations/IconAnim/Slider In.anim
+- Assets/UniverseResource/UI/Animations/IconAnim/Load Out.anim
+- Assets/UniverseResource/UI/Animations/IconAnim/No to Yes.controller
+- Assets/UniverseResource/UI/Animations/IconAnim/Heart Pop.controller
+- Assets/UniverseResource/UI/Animations/IconAnim/YTN No.anim
+- Assets/UniverseResource/UI/Animations/IconAnim/Lock Open.anim
+- Assets/UniverseResource/UI/Animations/IconAnim/Load In.anim
+- Assets/UniverseResource/UI/Animations/IconAnim/MB Pop.anim
+- Assets/UniverseResource/UI/Animations/IconAnim/Window.controller
+- Assets/UniverseResource/UI/Animations/IconAnim/Slider.controller
+Dependencies: []

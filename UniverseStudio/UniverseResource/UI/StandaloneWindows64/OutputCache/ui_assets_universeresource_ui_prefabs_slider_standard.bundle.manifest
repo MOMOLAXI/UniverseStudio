@@ -1,0 +1,94 @@
+ManifestFileVersion: 0
+CRC: 732258776
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4710380b36610001661be93ae3e9449f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 54f192c7e63efb1fa81b8d5ec1cfc198
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: eb7cf53b7c3b36a4b9f4d2b688942503, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d170bc6b162fcce46a456b2011fd50b4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4ebbd33be3a73ca40aa6a4371ff9a6c6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 092a466539ee62b49bab58774f2e4d46, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c65c7917835d8a04b94c8b906234b09e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae2d1475ff8202447b792ea5e136014d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: Michsky.MUIP.SliderManager/SliderEvent
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_InputField/OnChangeEvent
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_InputField/SelectionEvent
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_InputField/SubmitEvent
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_InputField/TextSelectionEvent
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_InputField/TouchScreenKeyboardEvent
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.VertexGradient
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Slider/SliderEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+Assets:
+- Assets/UniverseResource/UI/Prefabs/Slider/Standard/Slider - Standard.prefab
+- Assets/UniverseResource/UI/Prefabs/Slider/Standard/Slider - Standard (Popup).prefab
+- Assets/UniverseResource/UI/Prefabs/Slider/Standard/Slider - Standard (Input).prefab
+- Assets/UniverseResource/UI/Prefabs/Slider/Standard/Slider - Standard (Value).prefab
+Dependencies:
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_assets_universeresource_ui_animations_inputfieldanim.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_assets_universeresource_ui_animations_slideranim.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_assets_universeresource_ui_textures_tborder_rounded_128px.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_share_assets_editor_icons.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_share_assets_resources.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_share_assets_resources_fonts.bundle

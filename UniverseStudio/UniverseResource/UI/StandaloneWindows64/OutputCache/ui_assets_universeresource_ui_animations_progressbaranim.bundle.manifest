@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 820841764
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 636851eb939c71a4c8eac82d3e31fe84
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 976262f0cce69b6c33d86a53dfc198ce
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/UniverseResource/UI/Animations/ProgressBarAnim/Radial FB Filled.anim
+- Assets/UniverseResource/UI/Animations/ProgressBarAnim/Circle Pie.anim
+- Assets/UniverseResource/UI/Animations/ProgressBarAnim/Standard Fastly.anim
+- Assets/UniverseResource/UI/Animations/ProgressBarAnim/Circle Run.controller
+- Assets/UniverseResource/UI/Animations/ProgressBarAnim/Circle Pie.controller
+- Assets/UniverseResource/UI/Animations/ProgressBarAnim/Circle Trapez.anim
+- Assets/UniverseResource/UI/Animations/ProgressBarAnim/Standard Fastly.controller
+- Assets/UniverseResource/UI/Animations/ProgressBarAnim/Circle Trapez.controller
+- Assets/UniverseResource/UI/Animations/ProgressBarAnim/Material Spinner.controller
+- Assets/UniverseResource/UI/Animations/ProgressBarAnim/Standard Run.controller
+- Assets/UniverseResource/UI/Animations/ProgressBarAnim/Radial PB Filled.controller
+- Assets/UniverseResource/UI/Animations/ProgressBarAnim/Material Spinner.anim
+- Assets/UniverseResource/UI/Animations/ProgressBarAnim/Circle Run.anim
+- Assets/UniverseResource/UI/Animations/ProgressBarAnim/Standard Run.anim
+Dependencies: []

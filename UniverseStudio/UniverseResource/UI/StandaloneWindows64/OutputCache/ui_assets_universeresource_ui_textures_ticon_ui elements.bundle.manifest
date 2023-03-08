@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 3962122212
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2286fa31946c2c4f8d279dc924f2c45c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/UniverseResource/UI/Textures/TIcon/UI Elements/Modal Window.png
+- Assets/UniverseResource/UI/Textures/TIcon/UI Elements/Input Filed.png
+- Assets/UniverseResource/UI/Textures/TIcon/UI Elements/Progress Bar.png
+- Assets/UniverseResource/UI/Textures/TIcon/UI Elements/Context Menu.png
+- Assets/UniverseResource/UI/Textures/TIcon/UI Elements/List View.png
+- Assets/UniverseResource/UI/Textures/TIcon/UI Elements/Window Manager.png
+- Assets/UniverseResource/UI/Textures/TIcon/UI Elements/Toggle.png
+- Assets/UniverseResource/UI/Textures/TIcon/UI Elements/Switch (Filled).png
+- Assets/UniverseResource/UI/Textures/TIcon/UI Elements/Dropdown.png
+- Assets/UniverseResource/UI/Textures/TIcon/UI Elements/Toggle (Filled).png
+- Assets/UniverseResource/UI/Textures/TIcon/UI Elements/Progress Bar (Filled).png
+- Assets/UniverseResource/UI/Textures/TIcon/UI Elements/Movable Window.png
+- Assets/UniverseResource/UI/Textures/TIcon/UI Elements/Button (Filled).png
+- Assets/UniverseResource/UI/Textures/TIcon/UI Elements/Dropdown (Filled).png
+- Assets/UniverseResource/UI/Textures/TIcon/UI Elements/Slider.png
+- Assets/UniverseResource/UI/Textures/TIcon/UI Elements/Slider (Filled).png
+- Assets/UniverseResource/UI/Textures/TIcon/UI Elements/Button.png
+- Assets/UniverseResource/UI/Textures/TIcon/UI Elements/Switch.png
+Dependencies: []

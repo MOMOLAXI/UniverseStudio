@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 3837808237
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 03caa2b279a9db20bc4116961ea1cd89
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Instagram Filled.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Message Filled.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/User.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Discord Filled.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/User Filled.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Share.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/YouTube.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Steam.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Email 2.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Facebook Filled.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Reddit Filled.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Twitter Filled.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Message.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Reddit.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Message Empty.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Facebook.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Twitter.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Discord.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Email Filled.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Steam Filled.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Github (Filled).png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Github.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/YouTube Filled.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Email.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Instagram.png
+- Assets/UniverseResource/UI/Textures/TIcon/Communication & Social/Share Filled.png
+Dependencies: []

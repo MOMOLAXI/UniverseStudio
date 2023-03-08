@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 1999700851
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 54ac86cd3bfae44c9fd01ada629ac1b5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bbfaa0f72a86ec3f92b1fc3129632085
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/UniverseResource/UI/Animations/WindowManagerAnim/Button.controller
+- Assets/UniverseResource/UI/Animations/WindowManagerAnim/WMA Start.anim
+- Assets/UniverseResource/UI/Animations/WindowManagerAnim/WM Window Out.anim
+- Assets/UniverseResource/UI/Animations/WindowManagerAnim/Window Manager Alt.controller
+- Assets/UniverseResource/UI/Animations/WindowManagerAnim/WM Start.anim
+- Assets/UniverseResource/UI/Animations/WindowManagerAnim/Hover to Normal.anim
+- Assets/UniverseResource/UI/Animations/WindowManagerAnim/Hover to Pressed.anim
+- Assets/UniverseResource/UI/Animations/WindowManagerAnim/WMA In.anim
+- Assets/UniverseResource/UI/Animations/WindowManagerAnim/WMA Out.anim
+- Assets/UniverseResource/UI/Animations/WindowManagerAnim/Normal to Hover.anim
+- Assets/UniverseResource/UI/Animations/WindowManagerAnim/WM Window In.anim
+- Assets/UniverseResource/UI/Animations/WindowManagerAnim/Pressed to Normal.anim
+- Assets/UniverseResource/UI/Animations/WindowManagerAnim/Normal to Pressed.anim
+- Assets/UniverseResource/UI/Animations/WindowManagerAnim/Window Manager.controller
+Dependencies: []

@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 493989701
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b554394a5cad40fcc203c0f45214c847
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bbfaa0f72a86ec3f92b1fc3129632085
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/UniverseResource/UI/Animations/ContextMenuAnim/Context Menu.controller
+- Assets/UniverseResource/UI/Animations/ContextMenuAnim/Sub Menu Start.anim
+- Assets/UniverseResource/UI/Animations/ContextMenuAnim/Context Menu Start.anim
+- Assets/UniverseResource/UI/Animations/ContextMenuAnim/Sub Menu In.anim
+- Assets/UniverseResource/UI/Animations/ContextMenuAnim/Sub Menu Out.anim
+- Assets/UniverseResource/UI/Animations/ContextMenuAnim/Context Menu In.anim
+- Assets/UniverseResource/UI/Animations/ContextMenuAnim/Sub Menu.controller
+- Assets/UniverseResource/UI/Animations/ContextMenuAnim/Context Menu Out.anim
+Dependencies: []

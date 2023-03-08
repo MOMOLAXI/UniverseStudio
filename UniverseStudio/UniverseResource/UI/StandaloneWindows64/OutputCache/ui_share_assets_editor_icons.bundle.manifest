@@ -1,0 +1,73 @@
+ManifestFileVersion: 0
+CRC: 3463888729
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0cbaf98431f27b87010348ec4379de51
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ff414f606ea1972259b080d7bcf51689
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Editor/Icons/EditorMovableWindow.png
+- Assets/Editor/Icons/EditorTool.png
+- Assets/Editor/Icons/SubHeaderContextMenu.png
+- Assets/Editor/Icons/HeaderPieChart.png
+- Assets/Editor/Icons/HeaderGradient.png
+- Assets/Editor/Icons/HeaderDropdown.png
+- Assets/Editor/Icons/ContentNormal.png
+- Assets/Editor/Icons/HeaderWindowManager.png
+- Assets/Editor/Icons/EditorToggle.png
+- Assets/Editor/Icons/ResourcesNormal.png
+- Assets/Editor/Icons/HeaderNotification.png
+- Assets/Editor/Icons/SubHeaderUIManager.png
+- Assets/Editor/Icons/IndicatorItemFilled.png
+- Assets/Editor/Icons/HeaderTooltip.png
+- Assets/Editor/Icons/SubHeaderAnimation.png
+- Assets/Editor/Icons/EditorSlider.png
+- Assets/Editor/Icons/SubHeaderSupport.png
+- Assets/Editor/Icons/EditorNotification.png
+- Assets/Editor/Icons/EditorWindowManager.png
+- Assets/Editor/Icons/EditorContextMenu.png
+- Assets/Editor/Icons/SwitchOff.png
+- Assets/Editor/Icons/SettingsActive.png
+- Assets/Editor/Icons/ContentActive.png
+- Assets/Editor/Icons/HeaderHorizontalSelector.png
+- Assets/Editor/Icons/EditorProgressBar.png
+- Assets/Editor/Icons/EditorScrollbar.png
+- Assets/Editor/Icons/EditorGradient.png
+- Assets/Editor/Icons/SubHeaderResources.png
+- Assets/Editor/Icons/ResourcesActive.png
+- Assets/Editor/Icons/SubHeaderCustomization.png
+- Assets/Editor/Icons/EditorListView.png
+- Assets/Editor/Icons/HeaderSlider.png
+- Assets/Editor/Icons/EditorModalWindow.png
+- Assets/Editor/Icons/FoldoutOpen.png
+- Assets/Editor/Icons/EditorUIManager.png
+- Assets/Editor/Icons/SwitchOn.png
+- Assets/Editor/Icons/SettingsNormal.png
+- Assets/Editor/Icons/HeaderRadialLayout.png
+- Assets/Editor/Icons/HeaderListView.png
+- Assets/Editor/Icons/HeaderProgressBar.png
+- Assets/Editor/Icons/EditorSwitch.png
+- Assets/Editor/Icons/FoldoutClose.png
+- Assets/Editor/Icons/HeaderIconManager.png
+- Assets/Editor/Icons/IndicatorItemOutline.png
+- Assets/Editor/Icons/SubHeaderButton.png
+- Assets/Editor/Icons/EditorDropdown.png
+- Assets/Editor/Icons/SubHeaderContent.png
+- Assets/Editor/Icons/SubHeaderSettings.png
+- Assets/Editor/Icons/HeaderSwitch.png
+- Assets/Editor/Icons/EditorPieChart.png
+- Assets/Editor/Icons/EditorHorizontalSelector.png
+- Assets/Editor/Icons/HeaderUISound.png
+- Assets/Editor/Icons/EditorButton.png
+- Assets/Editor/Icons/EditorTooltip.png
+- Assets/Editor/Icons/SubHeaderEvents.png
+- Assets/Editor/Icons/HeaderModalWindow.png
+- Assets/Editor/Icons/EditorInputField.png
+Dependencies: []

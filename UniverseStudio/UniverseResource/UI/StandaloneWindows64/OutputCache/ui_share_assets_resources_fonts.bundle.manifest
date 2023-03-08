@@ -1,0 +1,73 @@
+ManifestFileVersion: 0
+CRC: 2588303716
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0fc891cea9bdce6f8eb2cf638dc4b1a4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c9915f7a67946c73574a15d6bdc5c5f6
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FaceInfo_Legacy
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FontAssetCreationSettings
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.KerningTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Character
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontFeatureTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontWeightPair
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Glyph
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.FaceInfo
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.Glyph
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphMetrics
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphRect
+Assets:
+- Assets/Resources/Fonts/OpenSans-SemiboldItalic.ttf
+- Assets/Resources/Fonts/OpenSans-Regular SDF.asset
+- Assets/Resources/Fonts/OpenSans-Semibold SDF.asset
+- Assets/Resources/Fonts/OpenSans-Bold.ttf
+- Assets/Resources/Fonts/OpenSans-BoldItalic.ttf
+- Assets/Resources/Fonts/OpenSans-LightItalic.ttf
+- Assets/Resources/Fonts/OpenSans-Light SDF.asset
+- Assets/Resources/Fonts/OpenSans-ExtraBoldItalic.ttf
+- Assets/Resources/Fonts/OpenSans-LightItalic SDF.asset
+- Assets/Resources/Fonts/OpenSans-Light.ttf
+- Assets/Resources/Fonts/OpenSans-Semibold.ttf
+- Assets/Resources/Fonts/OpenSans-BoldItalic SDF.asset
+- Assets/Resources/Fonts/OpenSans-Italic SDF.asset
+- Assets/Resources/Fonts/OpenSans-Bold SDF.asset
+- Assets/Resources/Fonts/OpenSans-ExtraBoldItalic SDF.asset
+- Assets/Resources/Fonts/OpenSans-ExtraBold SDF.asset
+- Assets/Resources/Fonts/Roboto-Regular.ttf
+- Assets/Resources/Fonts/OpenSans-Regular.ttf
+- Assets/Resources/Fonts/OpenSans-Italic.ttf
+- Assets/Resources/Fonts/OpenSans-SemiboldItalic SDF.asset
+- Assets/Resources/Fonts/OpenSans-ExtraBold.ttf
+Dependencies:
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_share_assets_textmesh
+  pro_examples & extras_fonts.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_share_packages_com_unity_searcher_editor_resources_flatskin_font.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_unityshaders.bundle

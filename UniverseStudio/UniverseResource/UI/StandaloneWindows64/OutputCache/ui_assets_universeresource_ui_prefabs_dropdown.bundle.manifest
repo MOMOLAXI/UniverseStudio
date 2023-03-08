@@ -1,0 +1,118 @@
+ManifestFileVersion: 0
+CRC: 2160469188
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4be9a0e284080a250222b9b4e5000c67
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 23646c708c377a0e5dba1e66fb4f96c4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: eb7cf53b7c3b36a4b9f4d2b688942503, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e3c6e5718ae5e9246af72590402986a6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4b5ddc5f89023bc448c7d4db08095515, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 025076e9ea2db4748aaecbfb47809745, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9142f1b2d4f467c49af32a1445cf9117, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: Michsky.MUIP.CustomDropdown/DropdownEvent
+- AssemblyName: Assembly-CSharp
+  ClassName: Michsky.MUIP.CustomDropdown/Item
+- AssemblyName: Assembly-CSharp
+  ClassName: Michsky.MUIP.DropdownMultiSelect/Item
+- AssemblyName: Assembly-CSharp
+  ClassName: Michsky.MUIP.DropdownMultiSelect/ToggleEvent
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.VertexGradient
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.RectOffset
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ScrollRect/ScrollRectEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Scrollbar/ScrollEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Toggle/ToggleEvent
+Assets:
+- Assets/UniverseResource/UI/Prefabs/Dropdown/Multi Select Dropdown Item.prefab
+- Assets/UniverseResource/UI/Prefabs/Dropdown/Dropdown - Multi Select.prefab
+- Assets/UniverseResource/UI/Prefabs/Dropdown/Dropdown.prefab
+- Assets/UniverseResource/UI/Prefabs/Dropdown/Dropdown Item.prefab
+Dependencies:
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_assets_universeresource_ui_animations_dropdownanim.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_assets_universeresource_ui_textures_tborder_rounded_128px.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_assets_universeresource_ui_textures_ticon_common.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_assets_universeresource_ui_textures_ticon_device.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_assets_universeresource_ui_textures_ticon_media.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_assets_universeresource_ui_textures_ticon_navigation.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_assets_universeresource_ui_textures_ticon_others.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_assets_universeresource_ui_textures_ticon_reward.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_share_assets_editor_icons.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_share_assets_resources.bundle
+- D:/FuckingLibrary/UniverseStudio/UniverseResource/UI/StandaloneWindows64/OutputCache/ui_share_assets_resources_fonts.bundle

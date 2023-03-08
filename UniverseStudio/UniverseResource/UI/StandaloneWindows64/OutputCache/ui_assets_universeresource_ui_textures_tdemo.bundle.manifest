@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 741698274
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d61b76d51c695e355bd1c4ae6c12afb9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/UniverseResource/UI/Textures/TDemo/MUIP Big.png
+- Assets/UniverseResource/UI/Textures/TDemo/MUIP.png
+- Assets/UniverseResource/UI/Textures/TDemo/Demo Welcome.png
+- Assets/UniverseResource/UI/Textures/TDemo/Discord.png
+Dependencies: []

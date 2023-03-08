@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 2361145829
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4cf49f65c975bfb48e1371c198b50043
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 976262f0cce69b6c33d86a53dfc198ce
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/UniverseResource/UI/Animations/ToggleAnim/Toggle Off.anim
+- Assets/UniverseResource/UI/Animations/ToggleAnim/Toggle Off Instant.anim
+- Assets/UniverseResource/UI/Animations/ToggleAnim/Toggle.controller
+- Assets/UniverseResource/UI/Animations/ToggleAnim/Toggle On.anim
+- Assets/UniverseResource/UI/Animations/ToggleAnim/Toggle On Instant.anim
+Dependencies: []

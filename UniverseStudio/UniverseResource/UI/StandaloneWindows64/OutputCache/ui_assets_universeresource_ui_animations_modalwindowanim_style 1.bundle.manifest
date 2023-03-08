@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 2967202570
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 67093e2f46d73cda1ff93085f3c6689f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bbfaa0f72a86ec3f92b1fc3129632085
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/UniverseResource/UI/Animations/ModalWindowAnim/Style 1/Fade-in.anim
+- Assets/UniverseResource/UI/Animations/ModalWindowAnim/Style 1/Standard.controller
+- Assets/UniverseResource/UI/Animations/ModalWindowAnim/Style 1/Fade-out.anim
+Dependencies: []

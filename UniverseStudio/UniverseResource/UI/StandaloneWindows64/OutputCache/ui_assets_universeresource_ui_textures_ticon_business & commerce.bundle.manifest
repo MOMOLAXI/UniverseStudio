@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 3330187574
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8b8b991a284bacc1f45a8394c132cc00
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/UniverseResource/UI/Textures/TIcon/Business & Commerce/Credit Card.png
+- Assets/UniverseResource/UI/Textures/TIcon/Business & Commerce/Money.png
+- Assets/UniverseResource/UI/Textures/TIcon/Business & Commerce/Pie Chart (Filled).png
+- Assets/UniverseResource/UI/Textures/TIcon/Business & Commerce/Diamond Coin Filled.png
+- Assets/UniverseResource/UI/Textures/TIcon/Business & Commerce/Shopping Bag Filled.png
+- Assets/UniverseResource/UI/Textures/TIcon/Business & Commerce/Credit Card Filled.png
+- Assets/UniverseResource/UI/Textures/TIcon/Business & Commerce/Pie Chart.png
+- Assets/UniverseResource/UI/Textures/TIcon/Business & Commerce/Money Filled.png
+- Assets/UniverseResource/UI/Textures/TIcon/Business & Commerce/Diamond Coin.png
+- Assets/UniverseResource/UI/Textures/TIcon/Business & Commerce/Shopping Bag.png
+Dependencies: []

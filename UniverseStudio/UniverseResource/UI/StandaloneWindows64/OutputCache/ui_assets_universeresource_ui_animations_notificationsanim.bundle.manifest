@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 3080653163
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d1b4e9a0cd6f4820da6309cf1349bee9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 976262f0cce69b6c33d86a53dfc198ce
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/UniverseResource/UI/Animations/NotificationsAnim/Sliding.controller
+- Assets/UniverseResource/UI/Animations/NotificationsAnim/Popup In.anim
+- Assets/UniverseResource/UI/Animations/NotificationsAnim/Fading.controller
+- Assets/UniverseResource/UI/Animations/NotificationsAnim/Popup Out.anim
+- Assets/UniverseResource/UI/Animations/NotificationsAnim/Popup Loop.anim
+- Assets/UniverseResource/UI/Animations/NotificationsAnim/Sliding Loop.anim
+- Assets/UniverseResource/UI/Animations/NotificationsAnim/Wait.anim
+- Assets/UniverseResource/UI/Animations/NotificationsAnim/Popup.controller
+- Assets/UniverseResource/UI/Animations/NotificationsAnim/Sliding In.anim
+- Assets/UniverseResource/UI/Animations/NotificationsAnim/Sliding Out.anim
+- Assets/UniverseResource/UI/Animations/NotificationsAnim/Fading In.anim
+- Assets/UniverseResource/UI/Animations/NotificationsAnim/Fading Loop.anim
+Dependencies: []

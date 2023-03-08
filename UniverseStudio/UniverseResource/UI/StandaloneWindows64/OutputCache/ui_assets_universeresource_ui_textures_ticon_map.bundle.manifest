@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 216066046
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1eaafe6ef839cf6ecba74878da45d831
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/UniverseResource/UI/Textures/TIcon/Map/Map Filled.png
+- Assets/UniverseResource/UI/Textures/TIcon/Map/World.png
+- Assets/UniverseResource/UI/Textures/TIcon/Map/World Filled.png
+- Assets/UniverseResource/UI/Textures/TIcon/Map/Globe.png
+- Assets/UniverseResource/UI/Textures/TIcon/Map/Location Mark.png
+- Assets/UniverseResource/UI/Textures/TIcon/Map/Globe Filled.png
+- Assets/UniverseResource/UI/Textures/TIcon/Map/Location Mark Filled.png
+- Assets/UniverseResource/UI/Textures/TIcon/Map/Map.png
+Dependencies: []
