@@ -16,11 +16,6 @@ namespace Universe
         const string ENTITY_NAME_FORMAT = "{0}{1}";
 
         /// <summary>
-        /// 当前场景
-        /// </summary>
-        Entity CurScene { get; set; }
-
-        /// <summary>
         /// 根节点
         /// </summary>
         static Entity Root { get; set; }
@@ -34,12 +29,7 @@ namespace Universe
         /// Entity 查询
         /// </summary>
         readonly Dictionary<EntityID, int> m_EntityIDMapping = new();
-
-        /// <summary>
-        /// 当前场景ID
-        /// </summary>
-        public EntityID CurSceneID => CurScene != null ? CurScene.ID : EntityID.None;
-
+        
         public EntityPropertyLibrary PropertyLibrary { get; } = new();
 
         public EntityClassEventLibrary EventLibrary { get; } = new();
@@ -47,34 +37,6 @@ namespace Universe
         public override void Init()
         {
             Root = CreateRoot();
-        }
-
-        /// <summary>
-        /// 创建场景
-        /// </summary>
-        public EntityID CreateScene(string sceneName)
-        {
-            if (string.IsNullOrEmpty(sceneName))
-            {
-                Log.Error("Scene Name is not valid : null or empty");
-                return EntityID.None;
-            }
-
-            try
-            {
-                if (CurScene != null)
-                {
-                    DestroyEntity(CurScene.ID, true);
-                }
-
-                CurScene = CreateEntity(sceneName, 0, null, true);
-                return CurScene.ID;
-            }
-            catch (Exception e)
-            {
-                Log.Exception(e);
-                return EntityID.None;
-            }
         }
 
         /// <summary>

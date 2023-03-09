@@ -4,7 +4,7 @@ using System.Reflection;
 
 namespace Universe
 {
-    internal static class EngineSystemCollection
+    internal static class Kernel
     {
         static readonly Dictionary<Type, EngineSystem> s_Type2System = new();
         static readonly List<EngineSystem> s_SystemInstance = new();

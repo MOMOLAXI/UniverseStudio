@@ -107,7 +107,7 @@ namespace Universe
 
                 }, out float seconds);
 
-                Log.Info($"Initialize Game System {system.GetType().Name}, using {seconds} seconds");
+                //Log.Info($"Initialize Game System {system.GetType().Name}, using {seconds} seconds");
             }
         }
 
@@ -187,7 +187,7 @@ namespace Universe
                 {
                     system.Destroy();
                     system.OnComponentDestroy();
-                    Log.Info($"Destroy Game System {system.GetType().Name}");
+                    // Log.Info($"Destroy Game System {system.GetType().Name}");
                 }
                 catch (Exception e)
                 {

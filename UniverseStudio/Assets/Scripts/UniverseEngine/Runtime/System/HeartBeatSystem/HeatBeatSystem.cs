@@ -23,37 +23,37 @@ namespace Universe
         /// <summary>
         /// 心跳计数函数
         /// </summary>
-        public GlobalCountBeatFunction Function { get; set; }
+        public GlobalCountBeatFunction Function;
 
         /// <summary>
         /// 记录开始的时间点
         /// </summary>
-        public float LastTime { get; set; } = -1;
+        public float LastTime = -1;
 
         /// <summary>
         /// 心跳次数
         /// </summary>
-        public int BeatCount { get; set; } = -1;
+        public int BeatCount = -1;
 
         /// <summary>
         /// 当前计数
         /// </summary>
-        public int CurCount { get; set; }
+        public int CurCount;
 
         /// <summary>
         /// 心跳间隔
         /// </summary>
-        public float Interval { get; set; }
+        public float Interval;
 
         /// <summary>
         /// 已经走过的间隔时间
         /// </summary>
-        public float IntervalRunningTime { get; set; }
+        public float IntervalRunningTime;
 
         /// <summary>
         /// 执行状态
         /// </summary>
-        public EHearBeatState State { get; set; } = EHearBeatState.Idle;
+        public EHearBeatState State = EHearBeatState.Idle;
 
         public void Invoke()
         {
@@ -66,6 +66,12 @@ namespace Universe
         {
             Name = string.Empty;
             Function = null;
+            LastTime = -1;
+            BeatCount = -1;
+            CurCount = default;
+            Interval = default;
+            IntervalRunningTime = default;
+            State = EHearBeatState.Idle;
         }
     }
 
@@ -74,37 +80,37 @@ namespace Universe
         /// <summary>
         /// 心跳名称
         /// </summary>
-        public string Name { get; set; } = string.Empty;
+        public string Name = string.Empty;
 
         /// <summary>
         /// 心跳函数
         /// </summary>
-        public GlobalHeartBeatFunction Function { get; set; }
+        public GlobalHeartBeatFunction Function;
 
         /// <summary>
         /// 记录开始的时间点
         /// </summary>
-        public float LastTime { get; set; } = -1;
+        public float LastTime = -1;
 
         /// <summary>
         /// 运行总时长
         /// </summary>
-        public float Duration { get; set; }
+        public float Duration;
 
         /// <summary>
         /// 心跳间隔
         /// </summary>
-        public float Interval { get; set; }
+        public float Interval;
 
         /// <summary>
         /// 已经走过的间隔时间
         /// </summary>
-        public float IntervalRunningTime { get; set; }
+        public float IntervalRunningTime;
 
         /// <summary>
         /// 执行状态
         /// </summary>
-        public EHearBeatState State { get; set; } = EHearBeatState.Idle;
+        public EHearBeatState State = EHearBeatState.Idle;
 
         public void Invoke()
         {
@@ -112,7 +118,16 @@ namespace Universe
         }
 
         public bool IsInCache { get; set; }
-        public void Reset() { }
+        public void Reset()
+        {
+            Name = string.Empty;
+            Function = null;
+            LastTime = -1;
+            Duration = default;
+            Interval = default;
+            IntervalRunningTime = default;
+            State = EHearBeatState.Idle;
+        }
     }
 
     internal class HearBeatSystem : EngineSystem
@@ -355,10 +370,10 @@ namespace Universe
                 for (int i = 0; i < m_DeleteCountBeatNextFrame.Count; i++)
                 {
                     string callback = m_DeleteCountBeatNextFrame[i];
-                    if (m_CountBeats.TryGetValue(callback, out CountBeat heartBeat))
+                    if (m_CountBeats.TryGetValue(callback, out CountBeat countBeat))
                     {
                         m_CountBeats.Remove(callback);
-                        m_CountBeatPool.Release(heartBeat);
+                        m_CountBeatPool.Release(countBeat);
                     }
                 }
 
@@ -393,6 +408,7 @@ namespace Universe
                 if (heartBeat.Duration >= 0 && diff >= heartBeat.Duration)
                 {
                     m_DeleteHeartBeatNextFrame.Add(heartBeat.Name);
+                    heartBeat.State = EHearBeatState.Idle;
                     continue;
                 }
 
@@ -408,36 +424,36 @@ namespace Universe
 
         void UpdateCountBeat(float deltaTime)
         {
-            foreach (CountBeat heartBeat in m_CountBeats.Values)
+            foreach (CountBeat countBeat in m_CountBeats.Values)
             {
                 //Idle不更新
-                if (heartBeat.State == EHearBeatState.Idle)
+                if (countBeat.State == EHearBeatState.Idle)
                 {
                     continue;
                 }
 
                 //记录开始时间
-                if (heartBeat.LastTime <= 0)
+                if (countBeat.LastTime <= 0)
                 {
-                    heartBeat.LastTime = Time.time;
+                    countBeat.LastTime = Time.time;
                     continue;
                 }
 
                 //超过计数删除
-                if (heartBeat.BeatCount > 0 && heartBeat.CurCount >= heartBeat.BeatCount)
+                if (countBeat.BeatCount > 0 && countBeat.CurCount >= countBeat.BeatCount)
                 {
-                    m_DeleteCountBeatNextFrame.Add(heartBeat.Name);
-                    heartBeat.State = EHearBeatState.Idle;
+                    m_DeleteCountBeatNextFrame.Add(countBeat.Name);
+                    countBeat.State = EHearBeatState.Idle;
                     continue;
                 }
 
                 //大于interval执行回调
-                heartBeat.IntervalRunningTime += deltaTime;
-                if (heartBeat.IntervalRunningTime >= heartBeat.Interval && heartBeat.CurCount < heartBeat.BeatCount)
+                countBeat.IntervalRunningTime += deltaTime;
+                if (countBeat.IntervalRunningTime >= countBeat.Interval && countBeat.CurCount < countBeat.BeatCount)
                 {
-                    heartBeat.IntervalRunningTime = 0;
-                    heartBeat.CurCount += 1;
-                    heartBeat.Invoke();
+                    countBeat.IntervalRunningTime = 0;
+                    countBeat.CurCount += 1;
+                    countBeat.Invoke();
                 }
             }
         }

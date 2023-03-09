@@ -90,8 +90,8 @@ namespace Universe
         /// Release Generic
         /// </summary>
         /// <param name="tp"></param>
-        /// <typeparam name="E"></typeparam>
-        public void Release<E>(E tp) where E : T
+        /// <typeparam name="TE"></typeparam>
+        public void Release<TE>(TE tp) where TE : T
         {
             if (tp == null)
             {

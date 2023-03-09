@@ -624,7 +624,7 @@ namespace Universe
             }
 
             m_AssetsPackages.Clear();
-            Log.Info($"{nameof(AssetSystem)} destroy all !");
+            Log.Info($"{nameof(AssetSystem)} Destroyed");
         }
     }
 }

@@ -18,17 +18,7 @@ namespace Universe
 
         public static UniverseEngine Root => s_EngineInstance ??= UnityObject.AddComponent<UniverseEngine>();
 
-        static readonly List<EngineSystem> s_EngineUnits = new()
-        {
-            EngineSystem.Create<EntitySystem>(),
-            EngineSystem.Create<HearBeatSystem>(),
-            EngineSystem.Create<MessageSystem>(),
-            EngineSystem.Create<GameplaySystemCollection>(),
-            EngineSystem.Create<AssetSystem>(),
-            EngineSystem.Create<AssetDownloadSystem>(),
-            EngineSystem.Create<OperationSystem>(),
-            EngineSystem.Create<AutoVariableSystem>(),
-        };
+
 
         /// <summary>
         /// 获取全局游戏对象
@@ -117,7 +107,7 @@ namespace Universe
         /// <param name="interval">间隔时间(秒)</param>
         /// <param name="duration">总时长(秒)</param>
         /// <returns></returns>
-        public static void AddGlobalHeartBeat(
+        public static void StartGlobalHeartBeat(
             string callbackName,
             GlobalHeartBeatFunction function,
             float interval,
@@ -133,7 +123,7 @@ namespace Universe
         /// <param name="function"></param>
         /// <param name="interval"></param>
         /// <param name="count"></param>
-        public static void AddGlobalCountBeat(
+        public static void StartGlobalCountBeat(
             string callbackName,
             GlobalCountBeatFunction function,
             float interval,
@@ -306,23 +296,116 @@ namespace Universe
 
     #endregion
 
-        /// <summary>
-        /// 获取当前场景
-        /// </summary>
-        /// <returns></returns>
-        public static EntityID GetCurrentScene()
+    #region Sequencer
+
+        public static void Start(this SequencerID sequencerID)
         {
-            return EngineSystem<EntitySystem>.System.CurSceneID;
+            EngineSystem<SequencerSystem>.System.Start(sequencerID);
         }
 
         /// <summary>
-        /// 创建场景
+        /// 开启串行工作序列
         /// </summary>
+        /// <param name="name"></param>
         /// <returns></returns>
-        public static EntityID CreateScene(string sceneName)
+        public static SequencerID Sequencer(string name)
         {
-            return EngineSystem<EntitySystem>.System.CreateScene(sceneName);
+            return EngineSystem<SequencerSystem>.System.Sequence(name);
         }
+
+        /// <summary>
+        /// 添加串行分支
+        /// </summary>
+        /// <param name="sequence"></param>
+        /// <param name="conditionName"></param>
+        /// <param name="condition"></param>
+        /// <param name="ifTrue"></param>
+        /// <param name="ifFalse"></param>
+        /// <returns></returns>
+        public static SequencerID Branch(this SequencerID sequence, string conditionName, ICondition condition, WorkNode ifTrue, WorkNode ifFalse)
+        {
+            if (string.IsNullOrEmpty(conditionName))
+            {
+                Log.Error("Condition name is null or empty, can not create branch");
+                return sequence;
+            }
+
+            if (condition == null)
+            {
+                Log.Error($"Condition is null : {conditionName}");
+                return sequence;
+            }
+
+            return EngineSystem<SequencerSystem>.System.Branch(sequence, conditionName, condition, ifTrue, ifFalse);
+        }
+
+        /// <summary>
+        /// 开启串行工作序列
+        /// </summary>
+        /// <param name="sequence"></param>
+        /// <param name="node"></param>
+        /// <returns></returns>
+        public static SequencerID AppendSingle(this SequencerID sequence, WorkNode node)
+        {
+            return EngineSystem<SequencerSystem>.System.Append(sequence, node);
+        }
+
+        public static SequencerID AppendSingle<T>(this SequencerID sequence) where T : WorkNode, new()
+        {
+            return EngineSystem<SequencerSystem>.System.Append(sequence, new T());
+        }
+
+        /// <summary>
+        /// 开启串行工作序列
+        /// </summary>
+        /// <param name="sequence"></param>
+        /// <param name="args"></param>
+        /// <returns></returns>
+        public static SequencerID AppendSingle(this SequencerID sequence, params WorkNode[] args)
+        {
+            if (args == null)
+            {
+                return sequence;
+            }
+
+            for (int i = 0; i < args.Length; i++)
+            {
+                WorkNode node = args[i];
+                if (node == null)
+                {
+                    continue;
+                }
+
+                sequence.AppendSingle(node);
+            }
+
+            return sequence;
+        }
+
+        /// <summary>
+        /// 串行工作中开启一段并行序列
+        /// </summary>
+        /// <param name="sequence"></param>
+        /// <param name="parallelName"></param>
+        /// <param name="args"></param>
+        /// <returns></returns>
+        public static SequencerID AppendParallel(this SequencerID sequence, string parallelName, params WorkNode[] args)
+        {
+            if (string.IsNullOrEmpty(parallelName))
+            {
+                Log.Error("Parallel name is null or empty");
+                return sequence;
+            }
+
+            if (args == null)
+            {
+                return sequence;
+            }
+
+            return EngineSystem<SequencerSystem>.System.Parallel(sequence, parallelName, args);
+        }
+
+    #endregion
 
     #region Entity
 
@@ -2469,52 +2552,52 @@ namespace Universe
 
         public static void Initialize()
         {
-            EngineSystemCollection.Register(s_EngineUnits);
+            Kernel.Register(EngineUnits.Units);
         }
 
         public static void Start()
         {
-            EngineSystemCollection.Init();
+            Kernel.Init();
         }
 
         public static void Reset()
         {
-            EngineSystemCollection.Reset();
+            Kernel.Reset();
         }
 
         public static void Update(float dt)
         {
-            EngineSystemCollection.Update(dt);
+            Kernel.Update(dt);
         }
 
         public static void FixedUpdate(float dt)
         {
-            EngineSystemCollection.FixedUpdate(dt);
+            Kernel.FixedUpdate(dt);
         }
 
         public static void LateUpdate(float dt)
         {
-            EngineSystemCollection.LateUpdate(dt);
+            Kernel.LateUpdate(dt);
         }
 
         public static void Destroy()
         {
-            EngineSystemCollection.Destroy();
+            Kernel.Destroy();
         }
 
         public static void ApplicationFocus(bool hasFocus)
         {
-            EngineSystemCollection.ApplicationFocus(hasFocus);
+            Kernel.ApplicationFocus(hasFocus);
         }
 
         public static void ApplicationPause(bool pauseStatus)
         {
-            EngineSystemCollection.ApplicationPause(pauseStatus);
+            Kernel.ApplicationPause(pauseStatus);
         }
 
         public static void ApplicationQuit()
         {
-            EngineSystemCollection.ApplicationQuit();
+            Kernel.ApplicationQuit();
         }
 
     #endregion
@@ -2577,16 +2660,16 @@ namespace Universe
             return true;
         }
 
-        private static class EngineSystem<T> where T : EngineSystem, new()
+        static class EngineSystem<T> where T : EngineSystem, new()
         {
-            static T Instance;
-            public static T System => Instance ??= EngineSystemCollection.Get<T>();
+            static T s_Instance;
+            public static T System => s_Instance ??= Kernel.Get<T>();
         }
 
-        private static class GameSystem<T> where T : GameSystem, new()
+        static class GameSystem<T> where T : GameSystem, new()
         {
-            static T Instance;
-            public static T System => Instance ??= EngineSystem<GameplaySystemCollection>.System.Get<T>();
+            static T s_Instance;
+            public static T System => s_Instance ??= EngineSystem<GameplaySystemCollection>.System.Get<T>();
         }
 
     #endregion

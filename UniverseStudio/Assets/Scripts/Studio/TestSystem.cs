@@ -6,9 +6,11 @@ namespace Universe
     {
         public override void Init()
         {
-            Engine.CreateAssetsPackage("Scene");
-            Engine.CreateAssetsPackage("UI");
-            Engine.LoadSceneAsync("Scene", "StudioMain").Completed += OnSceneLoadFinish;
+            //Engine.GetSystem<LaunchSystem>().Start();
+            
+            // Engine.CreateAssetsPackage("Scene");
+            // Engine.CreateAssetsPackage("UI");
+            // Engine.LoadSceneAsync("Scene", "StudioMain").Completed += OnSceneLoadFinish;
         }
 
         void OnSceneLoadFinish(SceneOperationHandle handle)

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Universe
@@ -26,6 +27,12 @@ namespace Universe
             Log.Info($"Initialize Game Systems ... using {s2} seconds");
             Function.Run(Engine.Start, out float s3);
             Log.Info($"Initialize Game Logics ... using {s3} seconds");
+        }
+
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
+        static void Launch()
+        {
+            Engine.GetSystem<LaunchSystem>().Start();
         }
         
         void Reset()

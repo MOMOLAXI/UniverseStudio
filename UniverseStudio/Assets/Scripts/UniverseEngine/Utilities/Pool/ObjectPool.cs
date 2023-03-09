@@ -17,7 +17,7 @@ namespace Universe
             return new();
         }
 
-        ObjectPool()
+        private ObjectPool()
         {
 
         }
