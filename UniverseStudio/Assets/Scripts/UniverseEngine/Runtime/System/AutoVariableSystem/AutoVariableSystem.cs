@@ -36,12 +36,6 @@ namespace Universe
 
             while (s_Using.Count > 0)
             {
-                if (s_Free.Count >= 20)
-                {
-                    // 保持缓存的最大数量
-                    break;
-                }
-
                 Variables variables = s_Using.Dequeue();
                 variables.Clear();
                 s_Free.Enqueue(variables);
