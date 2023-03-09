@@ -27,7 +27,7 @@ namespace Universe
             }
         }
         
-        public override void Update(float dt)
+        public override void LateUpdate(float dt)
         {
             if (s_Using.Count == 0)
             {
