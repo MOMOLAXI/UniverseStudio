@@ -171,9 +171,9 @@
       "url": "https://packages.unity.cn"
     },
     "com.universe-studio.engine": {
-      "version": "file:UniverseEngine",
+      "version": "file:D:/FuckingLibrary/UniverseEngine",
       "depth": 0,
-      "source": "embedded",
+      "source": "local",
       "dependencies": {
         "com.unity.scriptablebuildpipeline": "1.20.2",
         "com.unity.modules.assetbundle": "1.0.0",
