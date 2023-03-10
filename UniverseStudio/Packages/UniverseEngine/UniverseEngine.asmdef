@@ -1,0 +1,17 @@
+{
+    "name": "UniverseEngine",
+    "rootNamespace": "Universe",
+    "references": [
+        "GUID:a26db2f2cdb422a498b8f6c2b9d2e00e",
+        "GUID:0193a0bb884d9b64fa2ff2104210df23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

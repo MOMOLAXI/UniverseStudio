@@ -1,0 +1,16 @@
+{
+    "name": "UniverseEngine.Utilities",
+    "rootNamespace": "Universe",
+    "references": [
+        "GUID:0193a0bb884d9b64fa2ff2104210df23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

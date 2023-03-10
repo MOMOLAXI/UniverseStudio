@@ -12,7 +12,7 @@ namespace Universe
         public override void Init()
         {
             Engine.GetGlobalGameObject(nameof(UISystem), out m_Root);
-            Engine.GetGlobalComponent("UICamera", out m_Camera);
+            Engine.GetOrAddGlobalComponent("UICamera", out m_Camera);
         }
     }
 }
