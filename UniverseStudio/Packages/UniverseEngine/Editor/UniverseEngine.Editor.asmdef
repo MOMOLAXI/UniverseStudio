@@ -3,8 +3,6 @@
     "rootNamespace": "UniverseEngineEditor",
     "references": [
         "UniverseEngine",
-        "UniverseEngine.Log",
-        "UniverseEngine.Utilities",
         "Unity.ScriptableBuildPipeline",
         "Unity.ScriptableBuildPipeline.Editor"
     ],

@@ -17,8 +17,7 @@ namespace Universe
             Function.Run(Engine.Start, out float s1);
             Log.Info($"Initialize [UniverseEngine] ... using {s1} seconds");
         }
-
- 
+        
         void Reset()
         {
             Engine.Reset();

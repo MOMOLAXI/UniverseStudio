@@ -18,8 +18,6 @@ namespace Universe
 
         public static UniverseEngine Root => s_EngineInstance ??= UnityObject.AddComponent<UniverseEngine>();
 
-
-
         /// <summary>
         /// 获取全局游戏对象
         /// </summary>
