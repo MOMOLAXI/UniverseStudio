@@ -1,0 +1,3 @@
+[submodule "UniverseEngine"]
+	path = UniverseEngine
+	url = git@github.com:MOMOLAXI/UniverseEngine.git
