@@ -1,6 +1,7 @@
 ﻿using UnityEngine.SceneManagement;
+using Universe;
 
-namespace Universe
+namespace UniverseStudio
 {
     public class SceneSystem : GameSystem
     {

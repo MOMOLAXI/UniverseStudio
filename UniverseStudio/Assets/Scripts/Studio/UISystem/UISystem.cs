@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
+using Universe;
 
-namespace Universe
+namespace UniverseStudio
 {
     public class UISystem : GameSystem
     {
