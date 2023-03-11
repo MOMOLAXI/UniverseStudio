@@ -42,6 +42,14 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 2650407d6311724489f3256696e75bb0, type: 3}
     - {fileID: 21300000, guid: af238b260179c884b93aa3248768f90b, type: 3}
     - {fileID: 21300000, guid: d693da8ebc165674b9509bab6391e358, type: 3}
+  - SceneName: LaunchScene
+    SceneAsset: {fileID: 102900000, guid: a42b7fd80b5c5fa428d6d3770bee2fb6, type: 3}
+    DisplayName: LaunchScene
+    Description: 
+    SkipType: 3
+    LoadingType: 0
+    FakeLoadingTime: 2
+    Backgrounds: []
   tipsList:
   - Create beautiful loading screens for improved your game
   - Easy to use and implement

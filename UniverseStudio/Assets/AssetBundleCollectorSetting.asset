@@ -17,22 +17,6 @@ MonoBehaviour:
   UniqueBundleName: 1
   ShowEditorAlias: 1
   Packages:
-  - PackageName: Scene
-    PackageDesc: 
-    Groups:
-    - GroupName: MainScene
-      GroupDesc: 
-      AssetTags: 
-      ActiveRuleName: EnableGroup
-      Collectors:
-      - CollectPath: Assets/Scenes
-        CollectorGuid: 
-        CollectorType: 0
-        AddressRuleName: AddressByFileName
-        PackRuleName: PackDirectory
-        FilterRuleName: CollectAll
-        AssetTags: 
-        UserData: 
   - PackageName: UI
     PackageDesc: 
     Groups:
@@ -84,6 +68,35 @@ MonoBehaviour:
         CollectorGuid: d8d27bb732cb9c347bdb298887d7e03d
         CollectorType: 0
         AddressRuleName: AddressByGroupAndFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+  - PackageName: Scene
+    PackageDesc: 
+    Groups:
+    - GroupName: LaunchScene
+      GroupDesc: 
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/Scenes/LaunchScene.unity
+        CollectorGuid: a42b7fd80b5c5fa428d6d3770bee2fb6
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: MainScene
+      GroupDesc: 
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/Scenes/StudioMain.unity
+        CollectorGuid: 99c9720ab356a0642a771bea13969a05
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
         PackRuleName: PackDirectory
         FilterRuleName: CollectAll
         AssetTags: 

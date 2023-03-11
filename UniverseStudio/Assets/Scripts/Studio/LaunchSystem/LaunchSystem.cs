@@ -7,7 +7,13 @@ namespace UniverseStudio
     {
         public void Start()
         {
-            // Engine.Sequencer("GameLauncher")
+            Engine.SetOperationSystemComponentMaxTimeSlice(30);
+            Engine.Sequencer("GameLauncher")
+                  .AppendSingle<UIAssetInitializer>()
+                  .AppendSingle<SceneAssetInitializer>()
+                  .AppendSingle<AssetPackageInitializer>()
+                  .Start();
+
             //       .AppendSingle<Test1>()
             //       .AppendParallel("TestParallel", new Test2(), new Test3())
             //       .AppendSingle<Test4>()
@@ -18,12 +24,13 @@ namespace UniverseStudio
             // Engine.CreateAssetsPackage("UI");
             // Engine.LoadSceneAsync("Scene", "StudioMain").Completed += OnSceneLoadFinish;
         }
-        
+
         void OnSceneLoadFinish(SceneOperationHandle handle)
         {
-            Engine.LoadAssetAsync<GameObject>("UI", "Canvas").Completed += OnCanvasLoaded;
+            Engine.LoadAssetAsync<GameObject>("UI", "Canvas")
+                  .Completed += OnCanvasLoaded;
         }
-        
+
         void OnCanvasLoaded(AssetOperationHandle handle)
         {
             Object.Instantiate(handle.AssetObject);

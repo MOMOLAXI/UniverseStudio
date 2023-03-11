@@ -13,16 +13,24 @@ namespace UniverseStudio
             Engine.GetOrAddGlobalComponent(nameof(GameInstance), out s_Instnace);
         }
 
-        void Awake()
+        static void RegistUIWidgets()
+        {
+            Engine.RegisterUIWidget((int)UIID.LoadingScreen, string.Empty, ECanvasLayer.TopLayer);
+        }
+
+        static void RegistGameSystems()
         {
             Engine.RegisterGameSystem<FileSystem>();
             Engine.RegisterGameSystem<ConfigurationSystem>();
-            Engine.RegisterGameSystem<UISystem>();
             Engine.RegisterGameSystem<SceneSystem>();
             Engine.RegisterGameSystem<PatchSystem>();
-
-
             Engine.RegisterGameSystem<LaunchSystem>();
+        }
+
+        void Awake()
+        {
+            RegistUIWidgets();
+            RegistGameSystems();
             Engine.GetSystem<LaunchSystem>()
                   .Start();
         }

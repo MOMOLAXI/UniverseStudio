@@ -4,6 +4,8 @@ namespace UniverseStudio
 {
     public enum EMessage
     {
+        OnAssetPackageCreated, //资源包创建(param : string packageName)
+
         OnSceneLoaded,
         OnSceneUnLoaded,
         OnActiveSceneChanged,

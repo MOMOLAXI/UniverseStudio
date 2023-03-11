@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09788b4733bab2d4792fdd5d28e7653c, type: 3}
   m_Name: AssetBundleBuilderSetting
   m_EditorClassIdentifier: 
-  BuildVersion: 0.0.2
-  MajorVersion: 0
+  BuildVersion: 1.0.0
+  MajorVersion: 1
   MinorVersion: 0
-  PatchVersion: 2
+  PatchVersion: 0
   BuildPipeline: 0
   BuildMode: 0
-  BuildPackage: UI
+  BuildPackage: Scene
   CompressOption: 2
   OutputNameStyle: 1
   CopyBuildinFileOption: 0
