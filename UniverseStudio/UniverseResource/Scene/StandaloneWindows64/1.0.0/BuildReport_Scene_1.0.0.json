@@ -1,0 +1,67 @@
+{
+    "Summary": {
+        "AssetSystemVersion": "1.0.0",
+        "UnityVersion": "2021.3.12f1c2",
+        "BuildDate": "03/11/2023 02:41:27",
+        "BuildSeconds": 4.046999931335449,
+        "BuildTarget": 19,
+        "BuildPipeline": 0,
+        "BuildMode": 0,
+        "BuildPackageName": "Scene",
+        "BuildPackageVersion": "1.0.0",
+        "EnableAddressable": true,
+        "UniqueBundleName": true,
+        "EncryptionServicesClassName": "Universe.EncryptionNone",
+        "OutputNameStyle": 1,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": true,
+        "AssetFileTotalCount": 5,
+        "MainAssetTotalCount": 2,
+        "AllBundleTotalCount": 1,
+        "AllBundleTotalSize": 214315,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0,
+        "RawBundleTotalCount": 0,
+        "RawBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "LaunchScene",
+            "AssetPath": "Assets/Scenes/LaunchScene.unity",
+            "AssetGuid": "a42b7fd80b5c5fa428d6d3770bee2fb6",
+            "AssetTags": [],
+            "MainBundleName": "scene_assets_scenes.bundle",
+            "MainBundleSize": 214315,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "StudioMain",
+            "AssetPath": "Assets/Scenes/StudioMain.unity",
+            "AssetGuid": "99c9720ab356a0642a771bea13969a05",
+            "AssetTags": [],
+            "MainBundleName": "scene_assets_scenes.bundle",
+            "MainBundleSize": 214315,
+            "DependBundles": [],
+            "DependAssets": [
+                "Assets/Settings/SampleSceneProfile.asset",
+                "Packages/com.unity.render-pipelines.core/Editor/Volume/Icons/VolumeProfileAsset.png",
+                "Packages/com.unity.render-pipelines.core/Editor/Volume/Icons/Volume.png"
+            ]
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "scene_assets_scenes.bundle",
+            "FileName": "089726d03ee91e3cac3a03991780b654.bundle",
+            "FileHash": "089726d03ee91e3cac3a03991780b654",
+            "FileCRC": "b4417e54",
+            "FileSize": 214315,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        }
+    ]
+}

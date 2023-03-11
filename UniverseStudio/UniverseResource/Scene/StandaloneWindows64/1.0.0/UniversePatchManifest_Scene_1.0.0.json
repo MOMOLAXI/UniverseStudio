@@ -1,0 +1,35 @@
+{
+    "FileVersion": "1.0.0",
+    "EnableAddressable": true,
+    "OutputNameStyle": 1,
+    "PackageName": "Scene",
+    "PackageVersion": "1.0.0",
+    "AssetList": [
+        {
+            "Address": "LaunchScene",
+            "AssetPath": "Assets/Scenes/LaunchScene.unity",
+            "AssetTags": [],
+            "BundleID": 0,
+            "DependIDs": []
+        },
+        {
+            "Address": "StudioMain",
+            "AssetPath": "Assets/Scenes/StudioMain.unity",
+            "AssetTags": [],
+            "BundleID": 0,
+            "DependIDs": []
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "scene_assets_scenes.bundle",
+            "FileHash": "089726d03ee91e3cac3a03991780b654",
+            "FileCRC": "b4417e54",
+            "FileSize": 214315,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [],
+            "ReferenceIDs": []
+        }
+    ]
+}

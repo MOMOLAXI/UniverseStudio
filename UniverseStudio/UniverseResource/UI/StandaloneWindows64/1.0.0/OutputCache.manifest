@@ -1,0 +1,548 @@
+ManifestFileVersion: 0
+CRC: 3476850093
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: ui_assets_universeresource_ui_root.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_animations_panelanim.bundle
+        Dependency_1: ui_assets_universeresource_ui_animations_windowmanageranim.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_radial_32px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_tborder_radial_256px.bundle
+        Dependency_4: ui_assets_universeresource_ui_textures_tborder_rounded_64px.bundle
+        Dependency_5: ui_assets_universeresource_ui_textures_tborder_rounded_128px.bundle
+        Dependency_6: ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+        Dependency_7: ui_assets_universeresource_ui_textures_tdemo.bundle
+        Dependency_8: ui_assets_universeresource_ui_textures_ticon_business & commerce.bundle
+        Dependency_9: ui_assets_universeresource_ui_textures_ticon_common.bundle
+        Dependency_10: ui_assets_universeresource_ui_textures_ticon_communication
+          & social.bundle
+        Dependency_11: ui_assets_universeresource_ui_textures_ticon_date & time.bundle
+        Dependency_12: ui_assets_universeresource_ui_textures_ticon_design.bundle
+        Dependency_13: ui_assets_universeresource_ui_textures_ticon_device.bundle
+        Dependency_14: ui_assets_universeresource_ui_textures_ticon_document.bundle
+        Dependency_15: ui_assets_universeresource_ui_textures_ticon_map.bundle
+        Dependency_16: ui_assets_universeresource_ui_textures_ticon_media.bundle
+        Dependency_17: ui_assets_universeresource_ui_textures_ticon_navigation.bundle
+        Dependency_18: ui_assets_universeresource_ui_textures_ticon_reward.bundle
+        Dependency_19: ui_assets_universeresource_ui_textures_ticon_system.bundle
+        Dependency_20: ui_assets_universeresource_ui_textures_ticon_ui elements.bundle
+        Dependency_21: ui_assets_universeresource_ui_textures_ticon_weather.bundle
+        Dependency_22: ui_assets_universeresource_ui_textures_ticon_web & cloud.bundle
+        Dependency_23: ui_assets_universeresource_ui_textures_tshadow.bundle
+        Dependency_24: ui_assets_universeresource_ui_prefabs_button_basic.bundle
+        Dependency_25: ui_assets_universeresource_ui_prefabs_button_basic - gradient.bundle
+        Dependency_26: ui_assets_universeresource_ui_prefabs_button_basic - outline.bundle
+        Dependency_27: ui_assets_universeresource_ui_prefabs_button_basic - outline
+          gradient.bundle
+        Dependency_28: ui_assets_universeresource_ui_prefabs_button_rounded.bundle
+        Dependency_29: ui_assets_universeresource_ui_prefabs_button_rounded - gradient.bundle
+        Dependency_30: ui_assets_universeresource_ui_prefabs_button_rounded - outline.bundle
+        Dependency_31: ui_assets_universeresource_ui_prefabs_button_rounded - outline
+          gradient.bundle
+        Dependency_32: ui_assets_universeresource_ui_prefabs_charts.bundle
+        Dependency_33: ui_assets_universeresource_ui_prefabs_context menu.bundle
+        Dependency_34: ui_assets_universeresource_ui_prefabs_demo.bundle
+        Dependency_35: ui_assets_universeresource_ui_prefabs_dropdown.bundle
+        Dependency_36: ui_assets_universeresource_ui_prefabs_horizontal selector.bundle
+        Dependency_37: ui_assets_universeresource_ui_prefabs_input field.bundle
+        Dependency_38: ui_assets_universeresource_ui_prefabs_list view.bundle
+        Dependency_39: ui_assets_universeresource_ui_prefabs_modal window.bundle
+        Dependency_40: ui_assets_universeresource_ui_prefabs_movable window.bundle
+        Dependency_41: ui_assets_universeresource_ui_prefabs_notification.bundle
+        Dependency_42: ui_assets_universeresource_ui_prefabs_progress bar.bundle
+        Dependency_43: ui_assets_universeresource_ui_prefabs_scrollbar.bundle
+        Dependency_44: ui_assets_universeresource_ui_prefabs_slider_gradient.bundle
+        Dependency_45: ui_assets_universeresource_ui_prefabs_slider_radial.bundle
+        Dependency_46: ui_assets_universeresource_ui_prefabs_slider_standard.bundle
+        Dependency_47: ui_assets_universeresource_ui_prefabs_spinner.bundle
+        Dependency_48: ui_assets_universeresource_ui_prefabs_switch.bundle
+        Dependency_49: ui_assets_universeresource_ui_prefabs_toggle.bundle
+        Dependency_50: ui_assets_universeresource_ui_prefabs_tooltip.bundle
+        Dependency_51: ui_assets_universeresource_ui_prefabs_window manager.bundle
+        Dependency_52: ui_share_assets_editor_icons.bundle
+        Dependency_53: ui_share_assets_resources_fonts.bundle
+    Info_1:
+      Name: ui_assets_universeresource_ui_animations_buttonanim.bundle
+      Dependencies: {}
+    Info_2:
+      Name: ui_assets_universeresource_ui_animations_contextmenuanim.bundle
+      Dependencies: {}
+    Info_3:
+      Name: ui_assets_universeresource_ui_animations_dropdownanim.bundle
+      Dependencies: {}
+    Info_4:
+      Name: ui_assets_universeresource_ui_animations_horizontalselectoranim.bundle
+      Dependencies: {}
+    Info_5:
+      Name: ui_assets_universeresource_ui_animations_iconanim.bundle
+      Dependencies: {}
+    Info_6:
+      Name: ui_assets_universeresource_ui_animations_inputfieldanim.bundle
+      Dependencies: {}
+    Info_7:
+      Name: ui_assets_universeresource_ui_animations_modalwindowanim_style 1.bundle
+      Dependencies: {}
+    Info_8:
+      Name: ui_assets_universeresource_ui_animations_modalwindowanim_style 2.bundle
+      Dependencies: {}
+    Info_9:
+      Name: ui_assets_universeresource_ui_animations_notificationsanim.bundle
+      Dependencies: {}
+    Info_10:
+      Name: ui_assets_universeresource_ui_animations_panelanim.bundle
+      Dependencies: {}
+    Info_11:
+      Name: ui_assets_universeresource_ui_animations_progressbaranim.bundle
+      Dependencies: {}
+    Info_12:
+      Name: ui_assets_universeresource_ui_animations_slideranim.bundle
+      Dependencies: {}
+    Info_13:
+      Name: ui_assets_universeresource_ui_animations_switchanim.bundle
+      Dependencies: {}
+    Info_14:
+      Name: ui_assets_universeresource_ui_animations_toggleanim.bundle
+      Dependencies: {}
+    Info_15:
+      Name: ui_assets_universeresource_ui_animations_tooltipanim.bundle
+      Dependencies: {}
+    Info_16:
+      Name: ui_assets_universeresource_ui_animations_windowmanageranim.bundle
+      Dependencies: {}
+    Info_17:
+      Name: ui_assets_universeresource_ui_textures_tborder_flat.bundle
+      Dependencies: {}
+    Info_18:
+      Name: ui_assets_universeresource_ui_textures_tborder_radial_32px.bundle
+      Dependencies: {}
+    Info_19:
+      Name: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+      Dependencies: {}
+    Info_20:
+      Name: ui_assets_universeresource_ui_textures_tborder_radial_128px.bundle
+      Dependencies: {}
+    Info_21:
+      Name: ui_assets_universeresource_ui_textures_tborder_radial_256px.bundle
+      Dependencies: {}
+    Info_22:
+      Name: ui_assets_universeresource_ui_textures_tborder_radial_1024px.bundle
+      Dependencies: {}
+    Info_23:
+      Name: ui_assets_universeresource_ui_textures_tborder_rounded_64px.bundle
+      Dependencies: {}
+    Info_24:
+      Name: ui_assets_universeresource_ui_textures_tborder_rounded_128px.bundle
+      Dependencies: {}
+    Info_25:
+      Name: ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+      Dependencies: {}
+    Info_26:
+      Name: ui_assets_universeresource_ui_textures_tborder_rounded_1024px.bundle
+      Dependencies: {}
+    Info_27:
+      Name: ui_assets_universeresource_ui_textures_tdemo.bundle
+      Dependencies: {}
+    Info_28:
+      Name: ui_assets_universeresource_ui_textures_ticon_business & commerce.bundle
+      Dependencies: {}
+    Info_29:
+      Name: ui_assets_universeresource_ui_textures_ticon_common.bundle
+      Dependencies: {}
+    Info_30:
+      Name: ui_assets_universeresource_ui_textures_ticon_communication & social.bundle
+      Dependencies: {}
+    Info_31:
+      Name: ui_assets_universeresource_ui_textures_ticon_date & time.bundle
+      Dependencies: {}
+    Info_32:
+      Name: ui_assets_universeresource_ui_textures_ticon_design.bundle
+      Dependencies: {}
+    Info_33:
+      Name: ui_assets_universeresource_ui_textures_ticon_device.bundle
+      Dependencies: {}
+    Info_34:
+      Name: ui_assets_universeresource_ui_textures_ticon_document.bundle
+      Dependencies: {}
+    Info_35:
+      Name: ui_assets_universeresource_ui_textures_ticon_map.bundle
+      Dependencies: {}
+    Info_36:
+      Name: ui_assets_universeresource_ui_textures_ticon_media.bundle
+      Dependencies: {}
+    Info_37:
+      Name: ui_assets_universeresource_ui_textures_ticon_navigation.bundle
+      Dependencies: {}
+    Info_38:
+      Name: ui_assets_universeresource_ui_textures_ticon_others_animation icon stuff.bundle
+      Dependencies: {}
+    Info_39:
+      Name: ui_assets_universeresource_ui_textures_ticon_others.bundle
+      Dependencies: {}
+    Info_40:
+      Name: ui_assets_universeresource_ui_textures_ticon_reward.bundle
+      Dependencies: {}
+    Info_41:
+      Name: ui_assets_universeresource_ui_textures_ticon_system.bundle
+      Dependencies: {}
+    Info_42:
+      Name: ui_assets_universeresource_ui_textures_ticon_ui elements.bundle
+      Dependencies: {}
+    Info_43:
+      Name: ui_assets_universeresource_ui_textures_ticon_weather.bundle
+      Dependencies: {}
+    Info_44:
+      Name: ui_assets_universeresource_ui_textures_ticon_web & cloud.bundle
+      Dependencies: {}
+    Info_45:
+      Name: ui_assets_universeresource_ui_textures_tshadow.bundle
+      Dependencies: {}
+    Info_46:
+      Name: ui_assets_universeresource_ui_prefabs_button_basic.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_radial_256px.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_tborder_rounded_1024px.bundle
+        Dependency_4: ui_assets_universeresource_ui_textures_tshadow.bundle
+        Dependency_5: ui_share_assets_editor_icons.bundle
+        Dependency_6: ui_share_assets_resources_fonts.bundle
+        Dependency_7: ui_share_assets_resources.bundle
+    Info_47:
+      Name: ui_assets_universeresource_ui_prefabs_button_basic - gradient.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_radial_256px.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_tborder_rounded_1024px.bundle
+        Dependency_4: ui_assets_universeresource_ui_textures_tshadow.bundle
+        Dependency_5: ui_share_assets_editor_icons.bundle
+        Dependency_6: ui_share_assets_resources_fonts.bundle
+    Info_48:
+      Name: ui_assets_universeresource_ui_prefabs_button_basic - outline.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_radial_256px.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_rounded_128px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+        Dependency_4: ui_assets_universeresource_ui_textures_tborder_rounded_1024px.bundle
+        Dependency_5: ui_assets_universeresource_ui_textures_tshadow.bundle
+        Dependency_6: ui_share_assets_editor_icons.bundle
+        Dependency_7: ui_share_assets_resources_fonts.bundle
+        Dependency_8: ui_share_assets_resources.bundle
+    Info_49:
+      Name: ui_assets_universeresource_ui_prefabs_button_basic - outline gradient.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_radial_256px.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_rounded_128px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+        Dependency_4: ui_assets_universeresource_ui_textures_tborder_rounded_1024px.bundle
+        Dependency_5: ui_assets_universeresource_ui_textures_tshadow.bundle
+        Dependency_6: ui_share_assets_editor_icons.bundle
+        Dependency_7: ui_share_assets_resources_fonts.bundle
+    Info_50:
+      Name: ui_assets_universeresource_ui_prefabs_button_rounded.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_radial_256px.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_radial_1024px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_tshadow.bundle
+        Dependency_4: ui_share_assets_editor_icons.bundle
+        Dependency_5: ui_share_assets_resources_fonts.bundle
+        Dependency_6: ui_share_assets_resources.bundle
+    Info_51:
+      Name: ui_assets_universeresource_ui_prefabs_button_rounded - gradient.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_radial_256px.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_radial_1024px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_tshadow.bundle
+        Dependency_4: ui_share_assets_editor_icons.bundle
+        Dependency_5: ui_share_assets_resources_fonts.bundle
+    Info_52:
+      Name: ui_assets_universeresource_ui_prefabs_button_rounded - outline.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_radial_128px.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_radial_256px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_tborder_radial_1024px.bundle
+        Dependency_4: ui_assets_universeresource_ui_textures_tshadow.bundle
+        Dependency_5: ui_share_assets_editor_icons.bundle
+        Dependency_6: ui_share_assets_resources_fonts.bundle
+        Dependency_7: ui_share_assets_resources.bundle
+    Info_53:
+      Name: ui_assets_universeresource_ui_prefabs_button_rounded - outline gradient.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_radial_128px.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_radial_256px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_tborder_radial_1024px.bundle
+        Dependency_4: ui_assets_universeresource_ui_textures_tshadow.bundle
+        Dependency_5: ui_share_assets_editor_icons.bundle
+        Dependency_6: ui_share_assets_resources_fonts.bundle
+    Info_54:
+      Name: ui_assets_universeresource_ui_prefabs_charts.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_textures_tborder_radial_32px.bundle
+        Dependency_1: ui_share_assets_editor_icons.bundle
+        Dependency_2: ui_share_assets_resources_fonts.bundle
+    Info_55:
+      Name: ui_assets_universeresource_ui_prefabs_context menu.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_animations_contextmenuanim.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_rounded_128px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+        Dependency_4: ui_assets_universeresource_ui_textures_ticon_common.bundle
+        Dependency_5: ui_assets_universeresource_ui_textures_ticon_navigation.bundle
+        Dependency_6: ui_assets_universeresource_ui_textures_tshadow.bundle
+        Dependency_7: ui_share_assets_editor_icons.bundle
+        Dependency_8: ui_share_assets_resources_fonts.bundle
+        Dependency_9: ui_share_assets_resources.bundle
+    Info_56:
+      Name: ui_assets_universeresource_ui_prefabs_demo.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_animations_buttonanim.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_radial_128px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+        Dependency_4: ui_assets_universeresource_ui_textures_ticon_others.bundle
+        Dependency_5: ui_assets_universeresource_ui_textures_tshadow.bundle
+        Dependency_6: ui_share_assets_resources_fonts.bundle
+    Info_57:
+      Name: ui_assets_universeresource_ui_prefabs_dropdown.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_animations_dropdownanim.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_rounded_128px.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_ticon_common.bundle
+        Dependency_4: ui_assets_universeresource_ui_textures_ticon_device.bundle
+        Dependency_5: ui_assets_universeresource_ui_textures_ticon_media.bundle
+        Dependency_6: ui_assets_universeresource_ui_textures_ticon_navigation.bundle
+        Dependency_7: ui_assets_universeresource_ui_textures_ticon_others.bundle
+        Dependency_8: ui_assets_universeresource_ui_textures_ticon_reward.bundle
+        Dependency_9: ui_share_assets_editor_icons.bundle
+        Dependency_10: ui_share_assets_resources_fonts.bundle
+        Dependency_11: ui_share_assets_resources.bundle
+    Info_58:
+      Name: ui_assets_universeresource_ui_prefabs_horizontal selector.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_animations_horizontalselectoranim.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_radial_32px.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_ticon_common.bundle
+        Dependency_4: ui_assets_universeresource_ui_textures_ticon_navigation.bundle
+        Dependency_5: ui_share_assets_editor_icons.bundle
+        Dependency_6: ui_share_assets_resources_fonts.bundle
+        Dependency_7: ui_share_assets_resources.bundle
+    Info_59:
+      Name: ui_assets_universeresource_ui_prefabs_icon.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_animations_iconanim.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_flat.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_radial_32px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+        Dependency_4: ui_assets_universeresource_ui_textures_tborder_radial_128px.bundle
+        Dependency_5: ui_assets_universeresource_ui_textures_tborder_rounded_128px.bundle
+        Dependency_6: ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+        Dependency_7: ui_assets_universeresource_ui_textures_ticon_common.bundle
+        Dependency_8: ui_assets_universeresource_ui_textures_ticon_communication
+          & social.bundle
+        Dependency_9: ui_assets_universeresource_ui_textures_ticon_others_animation
+          icon stuff.bundle
+        Dependency_10: ui_share_assets_resources.bundle
+    Info_60:
+      Name: ui_assets_universeresource_ui_prefabs_input field.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_animations_inputfieldanim.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_rounded_64px.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+        Dependency_3: ui_share_assets_editor_icons.bundle
+        Dependency_4: ui_share_assets_resources_fonts.bundle
+        Dependency_5: ui_share_assets_resources.bundle
+    Info_61:
+      Name: ui_assets_universeresource_ui_prefabs_list view.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_ticon_common.bundle
+        Dependency_2: ui_assets_universeresource_ui_prefabs_scrollbar.bundle
+        Dependency_3: ui_share_assets_editor_icons.bundle
+        Dependency_4: ui_share_assets_resources_fonts.bundle
+    Info_62:
+      Name: ui_assets_universeresource_ui_prefabs_modal window.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_animations_modalwindowanim_style
+          1.bundle
+        Dependency_1: ui_assets_universeresource_ui_animations_modalwindowanim_style
+          2.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_rounded_128px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+        Dependency_4: ui_assets_universeresource_ui_textures_ticon_common.bundle
+        Dependency_5: ui_assets_universeresource_ui_textures_ticon_document.bundle
+        Dependency_6: ui_assets_universeresource_ui_textures_ticon_navigation.bundle
+        Dependency_7: ui_assets_universeresource_ui_textures_tshadow.bundle
+        Dependency_8: ui_assets_universeresource_ui_prefabs_button_basic - outline.bundle
+        Dependency_9: ui_share_assets_editor_icons.bundle
+        Dependency_10: ui_share_assets_resources_fonts.bundle
+        Dependency_11: ui_share_assets_resources.bundle
+    Info_63:
+      Name: ui_assets_universeresource_ui_prefabs_movable window.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_ticon_ui elements.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tshadow.bundle
+        Dependency_3: ui_share_assets_editor_icons.bundle
+        Dependency_4: ui_share_assets_resources_fonts.bundle
+    Info_64:
+      Name: ui_assets_universeresource_ui_prefabs_notification.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_animations_notificationsanim.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_ticon_common.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_tshadow.bundle
+        Dependency_4: ui_share_assets_editor_icons.bundle
+        Dependency_5: ui_share_assets_resources_fonts.bundle
+        Dependency_6: ui_share_assets_resources.bundle
+    Info_65:
+      Name: ui_assets_universeresource_ui_prefabs_other.bundle
+      Dependencies: {}
+    Info_66:
+      Name: ui_assets_universeresource_ui_prefabs_progress bar.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_animations_progressbaranim.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_flat.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_radial_256px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_tborder_rounded_128px.bundle
+        Dependency_4: ui_assets_universeresource_ui_textures_tborder_rounded_1024px.bundle
+        Dependency_5: ui_share_assets_editor_icons.bundle
+        Dependency_6: ui_share_assets_resources_fonts.bundle
+        Dependency_7: ui_share_assets_resources.bundle
+    Info_67:
+      Name: ui_assets_universeresource_ui_prefabs_scrollbar.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_textures_tborder_rounded_128px.bundle
+        Dependency_1: ui_share_assets_editor_icons.bundle
+        Dependency_2: ui_share_assets_resources.bundle
+    Info_68:
+      Name: ui_assets_universeresource_ui_prefabs_slider_gradient.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_animations_inputfieldanim.bundle
+        Dependency_1: ui_assets_universeresource_ui_animations_slideranim.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_tborder_rounded_128px.bundle
+        Dependency_4: ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+        Dependency_5: ui_share_assets_editor_icons.bundle
+        Dependency_6: ui_share_assets_resources_fonts.bundle
+        Dependency_7: ui_share_assets_resources.bundle
+    Info_69:
+      Name: ui_assets_universeresource_ui_prefabs_slider_outline.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_animations_inputfieldanim.bundle
+        Dependency_1: ui_assets_universeresource_ui_animations_slideranim.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_tborder_radial_128px.bundle
+        Dependency_4: ui_assets_universeresource_ui_textures_tborder_rounded_128px.bundle
+        Dependency_5: ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+        Dependency_6: ui_share_assets_editor_icons.bundle
+        Dependency_7: ui_share_assets_resources_fonts.bundle
+        Dependency_8: ui_share_assets_resources.bundle
+    Info_70:
+      Name: ui_assets_universeresource_ui_prefabs_slider_radial.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_radial_256px.bundle
+        Dependency_2: ui_share_assets_editor_icons.bundle
+        Dependency_3: ui_share_assets_resources_fonts.bundle
+        Dependency_4: ui_share_assets_resources.bundle
+    Info_71:
+      Name: ui_assets_universeresource_ui_prefabs_slider_range.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_rounded_128px.bundle
+        Dependency_2: ui_share_assets_editor_icons.bundle
+        Dependency_3: ui_share_assets_resources_fonts.bundle
+    Info_72:
+      Name: ui_assets_universeresource_ui_prefabs_slider_standard.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_animations_inputfieldanim.bundle
+        Dependency_1: ui_assets_universeresource_ui_animations_slideranim.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_tborder_rounded_128px.bundle
+        Dependency_4: ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+        Dependency_5: ui_share_assets_editor_icons.bundle
+        Dependency_6: ui_share_assets_resources_fonts.bundle
+        Dependency_7: ui_share_assets_resources.bundle
+    Info_73:
+      Name: ui_assets_universeresource_ui_prefabs_spinner.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_animations_progressbaranim.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_radial_256px.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_rounded_128px.bundle
+        Dependency_3: ui_share_assets_editor_icons.bundle
+        Dependency_4: ui_share_assets_resources.bundle
+    Info_74:
+      Name: ui_assets_universeresource_ui_prefabs_switch.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_animations_switchanim.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_radial_128px.bundle
+        Dependency_3: ui_share_assets_editor_icons.bundle
+        Dependency_4: ui_share_assets_resources.bundle
+    Info_75:
+      Name: ui_assets_universeresource_ui_prefabs_toggle.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_animations_toggleanim.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_radial_128px.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_ticon_navigation.bundle
+        Dependency_3: ui_share_assets_editor_icons.bundle
+        Dependency_4: ui_share_assets_resources_fonts.bundle
+        Dependency_5: ui_share_assets_resources.bundle
+    Info_76:
+      Name: ui_assets_universeresource_ui_prefabs_tooltip.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_animations_tooltipanim.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_rounded_256px.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tshadow.bundle
+        Dependency_3: ui_share_assets_editor_icons.bundle
+        Dependency_4: ui_share_assets_resources_fonts.bundle
+        Dependency_5: ui_share_assets_resources.bundle
+    Info_77:
+      Name: ui_assets_universeresource_ui_prefabs_window manager.bundle
+      Dependencies:
+        Dependency_0: ui_assets_universeresource_ui_animations_windowmanageranim.bundle
+        Dependency_1: ui_assets_universeresource_ui_textures_tborder_radial_64px.bundle
+        Dependency_2: ui_assets_universeresource_ui_textures_tborder_radial_256px.bundle
+        Dependency_3: ui_assets_universeresource_ui_textures_tborder_rounded_128px.bundle
+        Dependency_4: ui_assets_universeresource_ui_textures_tborder_rounded_1024px.bundle
+        Dependency_5: ui_assets_universeresource_ui_textures_ticon_device.bundle
+        Dependency_6: ui_assets_universeresource_ui_textures_ticon_map.bundle
+        Dependency_7: ui_assets_universeresource_ui_textures_ticon_ui elements.bundle
+        Dependency_8: ui_share_assets_editor_icons.bundle
+        Dependency_9: ui_share_assets_resources_fonts.bundle
+    Info_78:
+      Name: ui_share_assets_editor_icons.bundle
+      Dependencies: {}
+    Info_79:
+      Name: ui_share_packages_com_unity_searcher_editor_resources_flatskin_font.bundle
+      Dependencies: {}
+    Info_80:
+      Name: ui_share_assets_resources_fonts.bundle
+      Dependencies:
+        Dependency_0: ui_share_packages_com_unity_searcher_editor_resources_flatskin_font.bundle
+        Dependency_1: ui_unityshaders.bundle
+    Info_81:
+      Name: ui_share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle
+      Dependencies: {}
+    Info_82:
+      Name: ui_share_assets_editor_resources.bundle
+      Dependencies:
+        Dependency_0: ui_share_assets_editor_icons.bundle
+        Dependency_1: ui_share_assets_resources_fonts.bundle
+    Info_83:
+      Name: ui_unityshaders.bundle
+      Dependencies: {}
+    Info_84:
+      Name: ui_share_assets_resources.bundle
+      Dependencies:
+        Dependency_0: ui_share_assets_resources_fonts.bundle
