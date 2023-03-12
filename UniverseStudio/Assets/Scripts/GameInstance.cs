@@ -15,14 +15,13 @@ namespace UniverseStudio
 
         static void RegistUIWidgets()
         {
-            Engine.RegisterUIWidget((int)UIID.LoadingScreen, string.Empty, ECanvasLayer.TopLayer);
+            Engine.RegisterUIWidget((int)UIID.LoadingScreen, "Panels_LoadingScreen", ECanvasLayer.TopLayer);
         }
 
         static void RegistGameSystems()
         {
             Engine.RegisterGameSystem<FileSystem>();
             Engine.RegisterGameSystem<ConfigurationSystem>();
-            Engine.RegisterGameSystem<SceneSystem>();
             Engine.RegisterGameSystem<PatchSystem>();
             Engine.RegisterGameSystem<LaunchSystem>();
         }
@@ -34,6 +33,5 @@ namespace UniverseStudio
             Engine.GetSystem<LaunchSystem>()
                   .Start();
         }
-
     }
 }

@@ -59,13 +59,13 @@ MonoBehaviour:
         FilterRuleName: CollectAll
         AssetTags: 
         UserData: 
-    - GroupName: Prefabs
+    - GroupName: Panels
       GroupDesc: 
       AssetTags: 
       ActiveRuleName: EnableGroup
       Collectors:
-      - CollectPath: Assets/UniverseResource/UI/Prefabs
-        CollectorGuid: d8d27bb732cb9c347bdb298887d7e03d
+      - CollectPath: Assets/UniverseResource/UI/Panels
+        CollectorGuid: de998515a72f0ac4a8ce0d7f623012aa
         CollectorType: 0
         AddressRuleName: AddressByGroupAndFileName
         PackRuleName: PackDirectory
@@ -93,7 +93,7 @@ MonoBehaviour:
       AssetTags: 
       ActiveRuleName: EnableGroup
       Collectors:
-      - CollectPath: Assets/Scenes/StudioMain.unity
+      - CollectPath: Assets/UniverseResource/Scene/StudioMain.unity
         CollectorGuid: 99c9720ab356a0642a771bea13969a05
         CollectorType: 0
         AddressRuleName: AddressByFileName

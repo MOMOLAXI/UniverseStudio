@@ -7,33 +7,14 @@ namespace UniverseStudio
     {
         public void Start()
         {
+            Application.targetFrameRate = 60;
+            Application.runInBackground = true;
             Engine.SetOperationSystemComponentMaxTimeSlice(30);
             Engine.Sequencer("GameLauncher")
                   .AppendSingle<UIAssetInitializer>()
                   .AppendSingle<SceneAssetInitializer>()
-                  .AppendSingle<AssetPackageInitializer>()
+                  .AppendSingle<GameInitializer>()
                   .Start();
-
-            //       .AppendSingle<Test1>()
-            //       .AppendParallel("TestParallel", new Test2(), new Test3())
-            //       .AppendSingle<Test4>()
-            //       .Start();
-
-            //TODO 各种资源加载
-            // Engine.CreateAssetsPackage("Scene");
-            // Engine.CreateAssetsPackage("UI");
-            // Engine.LoadSceneAsync("Scene", "StudioMain").Completed += OnSceneLoadFinish;
-        }
-
-        void OnSceneLoadFinish(SceneOperationHandle handle)
-        {
-            Engine.LoadAssetAsync<GameObject>("UI", "Canvas")
-                  .Completed += OnCanvasLoaded;
-        }
-
-        void OnCanvasLoaded(AssetOperationHandle handle)
-        {
-            Object.Instantiate(handle.AssetObject);
         }
     }
 }

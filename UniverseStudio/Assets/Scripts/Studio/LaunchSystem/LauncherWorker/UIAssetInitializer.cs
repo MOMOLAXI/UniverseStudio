@@ -25,7 +25,7 @@ namespace UniverseStudio
 
         IEnumerator InitializeUIPackage(AssetsPackage package)
         {
-            OfflinePlayModeParameters param = AssetInitializeParam.OfflineParams();
+            EditorSimulateModeParameters param = AssetInitializeParam.EditorParams("UI");
             InitializationOperation operation = package.InitializeAsync(param);
             yield return operation;
             m_IsDone = true;

@@ -57,14 +57,18 @@ public class bl_LoadingScreenUI : MonoBehaviour
         if (SkipKeyText != null) { SkipKeyText.SetActive(false); }
 
         if (Manager.HasTips) { cacheTips = Manager.tipsList; }
-        if (FilledImage != null) { FilledImage.type = Image.Type.Filled; FilledImage.fillAmount = 0; }
+        if (FilledImage != null)
+        {
+            FilledImage.type = Image.Type.Filled;
+            FilledImage.fillAmount = 0;
+        }
 
         Source.volume = 0;
         Source.loop = true;
         Source.clip = m_SceneLoader.BackgroundAudio;
 
         // instead of restructure all the loader prefabs, lets do this needed change in runtime.
-        if(FadeImageCanvas != null)
+        if (FadeImageCanvas != null)
         {
             FadeImageCanvas.transform.SetParent(RootAlpha.transform.parent, false);
             FadeImageCanvas.transform.SetAsLastSibling();
@@ -102,14 +106,14 @@ public class bl_LoadingScreenUI : MonoBehaviour
     /// <param name="to"></param>
     void OnSceneChange(Scene from, Scene to)
     {
-       // RootUI.SetActive(false);
+        // RootUI.SetActive(false);
     }
 
     /// <summary>
     /// 
     /// </summary>
     public void UpdateLoadProgress(float value, float delayedValue)
-    { 
+    {
         //update the progress bar and text
         if (FilledImage != null) { FilledImage.fillAmount = value; }
         if (LoadBarSlider != null) { LoadBarSlider.value = value; }
@@ -156,8 +160,8 @@ public class bl_LoadingScreenUI : MonoBehaviour
     {
         UpdateLoadProgress(0, 0);
         cacheBackgrounds = new List<Sprite>();
-        if(BackgroundAlpha != null) BackgroundAlpha.alpha = 1;
-        if(SkipKeyText != null) SkipKeyText.SetActive(false);
+        if (BackgroundAlpha != null) BackgroundAlpha.alpha = 1;
+        if (SkipKeyText != null) SkipKeyText.SetActive(false);
         if (ContinueUI != null) ContinueUI?.SetActive(false);
         if (FlashImage != null) FlashImage?.SetActive(false);
         if (LoadBarSlider != null) LoadBarSlider?.gameObject?.SetActive(true);
@@ -171,9 +175,9 @@ public class bl_LoadingScreenUI : MonoBehaviour
         FadeImageCanvas.gameObject.SetActive(true);
         FadeImageCanvas.alpha = 1;
         StartCoroutine(FadeOut(FadeImageCanvas, 0.2f, () =>
-          {
-              FadeImageCanvas.gameObject.SetActive(false);
-          }));
+        {
+            FadeImageCanvas.gameObject.SetActive(false);
+        }));
 
         if (Source != null && Source.isPlaying)
         {
@@ -203,7 +207,11 @@ public class bl_LoadingScreenUI : MonoBehaviour
         if (m_SceneLoader.FadeLoadingBarOnFinish)
         {
             if (LoadingBarAlpha != null) { StartCoroutine(FadeOutCanvas(LoadingBarAlpha, 1)); }
-            else { LoadBarSlider?.gameObject?.SetActive(false); FilledImage?.gameObject?.SetActive(false); }
+            else
+            {
+                LoadBarSlider?.gameObject?.SetActive(false);
+                FilledImage?.gameObject?.SetActive(false);
+            }
         }
         FlashImage?.SetActive(true);
     }
@@ -213,15 +221,15 @@ public class bl_LoadingScreenUI : MonoBehaviour
     /// </summary>
     public void SetupUIForScene(bl_SceneLoaderInfo info)
     {
-        if(m_SceneLoader == null)
+        if (m_SceneLoader == null)
         {
             m_SceneLoader = transform.GetComponentInParent<bl_SceneLoader>();
-            if(m_SceneLoader == null)
+            if (m_SceneLoader == null)
             {
                 m_SceneLoader = bl_SceneLoaderUtils.GetLoader;
             }
 
-            if(m_SceneLoader == null)
+            if (m_SceneLoader == null)
             {
                 Debug.LogError("No scene loader has been found in this scene.");
                 return;
@@ -281,7 +289,8 @@ public class bl_LoadingScreenUI : MonoBehaviour
         StartCoroutine(FadeAudio(true));
     }
 
-    #region Coroutines
+#region Coroutines
+
     /// <summary>
     /// 
     /// </summary>
@@ -454,7 +463,8 @@ public class bl_LoadingScreenUI : MonoBehaviour
             yield return null;
         }
     }
-    #endregion
+
+#endregion
 
     public float DeltaTime => m_SceneLoader.DeltaTime;
 
@@ -463,7 +473,7 @@ public class bl_LoadingScreenUI : MonoBehaviour
     {
         get
         {
-            if(m_aSource == null)
+            if (m_aSource == null)
             {
                 m_aSource = GetComponent<AudioSource>();
                 if (m_aSource == null)

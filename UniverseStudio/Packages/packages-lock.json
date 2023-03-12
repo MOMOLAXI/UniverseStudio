@@ -171,16 +171,15 @@
       "url": "https://packages.unity.cn"
     },
     "com.universe-studio.engine": {
-      "version": "git@gitee.com:boxinyuan/UniverseEngine.git",
+      "version": "file:D:/FuckingLibrary/Trunk/UniverseEngine",
       "depth": 0,
-      "source": "git",
+      "source": "local",
       "dependencies": {
         "com.unity.scriptablebuildpipeline": "1.20.2",
         "com.unity.modules.assetbundle": "1.0.0",
         "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
-      },
-      "hash": "79370e8c0c57571c62af206f892e7b84976a1b3a"
+      }
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
