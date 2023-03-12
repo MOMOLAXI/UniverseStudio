@@ -10,6 +10,7 @@ namespace UniverseStudio
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         static void Initialize()
         {
+            Engine.Initialize();
             Engine.GetOrAddGlobalComponent(nameof(GameInstance), out s_Instnace);
         }
 
@@ -20,7 +21,6 @@ namespace UniverseStudio
 
         static void RegistGameSystems()
         {
-            Engine.RegisterGameSystem<FileSystem>();
             Engine.RegisterGameSystem<ConfigurationSystem>();
             Engine.RegisterGameSystem<PatchSystem>();
             Engine.RegisterGameSystem<LaunchSystem>();
