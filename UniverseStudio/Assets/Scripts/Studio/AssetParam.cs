@@ -6,6 +6,9 @@ namespace UniverseStudio
 {
     public static class AssetInitializeParam
     {
+        public const string UI_PACKAGE = "UI";
+        public const string SCENE_PACKAGE = "Scene";
+        
         public static EditorSimulateModeParameters EditorParams(string packageName)
         {
             EditorSimulateModeParameters parameters = new()
@@ -22,20 +25,17 @@ namespace UniverseStudio
             {
                 DecryptionServices = new GameDecryptionServices()
             };
+
             return parameters;
         }
 
-        public static HostPlayModeParameters HostPlayParams()
+        public static HostPlayModeParameters HostPlay = new()
         {
-            HostPlayModeParameters createParameters = new()
-            {
-                DecryptionServices = new GameDecryptionServices(),
-                QueryServices = new GameQueryServices(),
-                DefaultHostServer = "http://127.0.0.1",
-                FallbackHostServer = "http://127.0.0.1"
-            };
-            return createParameters;
-        }
+            DecryptionServices = new GameDecryptionServices(),
+            QueryServices = new GameQueryServices(),
+            DefaultHostServer = "http://127.0.0.1",
+            FallbackHostServer = "http://127.0.0.1"
+        };
 
         /// <summary>
         /// 资源文件解密服务类
@@ -63,7 +63,7 @@ namespace UniverseStudio
                 return 1024;
             }
         }
-        
+
         /// <summary>
         /// 内置文件查询服务类
         /// </summary>

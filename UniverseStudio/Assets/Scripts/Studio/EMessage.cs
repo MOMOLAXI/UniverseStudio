@@ -5,6 +5,8 @@ namespace UniverseStudio
     public enum EMessage
     {
         OnLaunchSequenceUpdate,
+        OnAssetDownLoadError,
+        OnAssetDownloading,
 
         OnSceneLoaded,
         OnSceneUnLoaded,

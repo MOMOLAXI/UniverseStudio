@@ -11,9 +11,12 @@ namespace UniverseStudio
             Application.runInBackground = true;
             Engine.SetOperationSystemComponentMaxTimeSlice(30);
             Engine.Sequencer("GameLauncher")
-                  .AppendSingle<UIAssetInitializer>()
-                  .AppendSingle<SceneAssetInitializer>()
-                  .AppendSingle<GameInitializer>()
+                  .Append<AssetPackageInitializer>()
+                  .Append<AssetVersionUpdater>()
+                  .Append<AssetManifestUpdater>()
+                  .Append<AssetDownloaderCreater>()
+                  .Branch<AssetDownloadStateChecker, AssetDownloaderOver, AssetDownloaderStart>("CheckAssetNeedDownload")
+                  .Append<GameInitializer>()
                   .Start();
         }
     }

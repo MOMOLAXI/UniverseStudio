@@ -1,6 +1,6 @@
-﻿using UniverseStudio;
+﻿using Universe;
 
-namespace Universe
+namespace UniverseStudio
 {
     public class GameInitializer : WorkNode
     {
