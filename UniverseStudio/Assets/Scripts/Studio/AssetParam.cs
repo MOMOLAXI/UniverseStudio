@@ -13,7 +13,8 @@ namespace UniverseStudio
         {
             EditorSimulateModeParameters parameters = new()
             {
-                SimulatePatchManifestPath = EditorSimulateModeHelper.SimulateBuild(packageName)
+                SimulatePatchManifestPath = EditorSimulateModeHelper.SimulateBuild(packageName),
+                PlayMode = EPlayMode.EditorSimulateMode
             };
 
             return parameters;
@@ -23,7 +24,8 @@ namespace UniverseStudio
         {
             OfflinePlayModeParameters parameters = new()
             {
-                DecryptionServices = new GameDecryptionServices()
+                DecryptionServices = new GameDecryptionServices(),
+                PlayMode = EPlayMode.OfflinePlayMode
             };
 
             return parameters;
@@ -34,7 +36,8 @@ namespace UniverseStudio
             DecryptionServices = new GameDecryptionServices(),
             QueryServices = new GameQueryServices(),
             DefaultHostServer = "http://127.0.0.1",
-            FallbackHostServer = "http://127.0.0.1"
+            FallbackHostServer = "http://127.0.0.1",
+            PlayMode = EPlayMode.HostPlayMode
         };
 
         /// <summary>

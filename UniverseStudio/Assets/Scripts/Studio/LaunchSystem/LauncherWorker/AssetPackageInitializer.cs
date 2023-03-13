@@ -1,48 +1,29 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using Universe;
+﻿using Universe;
 
 namespace UniverseStudio
 {
     public class AssetPackageInitializer : WorkNode
     {
-        readonly Dictionary<string, bool> m_PackageState = new();
+        bool m_IsDone;
+        readonly (string packageName, EPlayMode playMode)[] m_TaskList =
+        {
+            (AssetInitializeParam.UI_PACKAGE, EPlayMode.EditorSimulateMode),
+            (AssetInitializeParam.SCENE_PACKAGE, EPlayMode.EditorSimulateMode),
+        };
 
         public override string Name => "Initialize Asset Packages";
 
-        public override bool IsDone => m_PackageState.Values.Aggregate(true, (current, value) => value && current);
+        public override bool IsDone => m_IsDone;
 
         protected override void OnStart()
         {
-            m_PackageState[AssetInitializeParam.UI_PACKAGE] = false;
-            // Engine.CreateAssetsPackage(AssetInitializeParam.UI_PACKAGE);
-            // Engine.SetUIPackageName(AssetInitializeParam.UI_PACKAGE);
-            //
-            // if (Engine.GetAssetsPackage(AssetInitializeParam.UI_PACKAGE, out AssetsPackage uiPackage))
-            // {
-            //     Engine.StartGlobalCoroutine(InitializePackage(AssetInitializeParam.UI_PACKAGE, uiPackage));
-            // }
-            //
-            // Engine.CreateAssetsPackage(AssetInitializeParam.SCENE_PACKAGE);
-            // Engine.SetScenePackageName(AssetInitializeParam.SCENE_PACKAGE);
-            //
-            // if (Engine.GetAssetsPackage(AssetInitializeParam.SCENE_PACKAGE, out AssetsPackage scenePackage))
-            // {
-            //     Engine.StartGlobalCoroutine(InitializePackage(AssetInitializeParam.SCENE_PACKAGE, scenePackage));
-            // }
+            Engine.RegisterAssetInitialParam(AssetInitializeParam.EditorParams(AssetInitializeParam.UI_PACKAGE),
+                                             AssetInitializeParam.UI_PACKAGE);
+            Engine.RegisterAssetInitialParam(AssetInitializeParam.EditorParams(AssetInitializeParam.SCENE_PACKAGE),
+                                             AssetInitializeParam.SCENE_PACKAGE);
+            Engine.InitializeAssetPackageList(m_TaskList, result => m_IsDone = result)
+                  .Forget();
         }
 
-        IEnumerator InitializePackage(string packageName, AssetsPackage package)
-        {
-            //TODO LOG MASK
-            //TODO 重构一遍AssetSystem, 池化一些对象
-            //将一些接口内置到Engine中，外部只暴露InitializeAssetPackage即可, 提供所有AssetPackage的进度，方便UI显示
-            OfflinePlayModeParameters param = AssetInitializeParam.OfflineParams();
-            // InitializationOperation operation = package.InitializeAsync(param);
-            // yield return operation;
-            m_PackageState[packageName] = package.InitializeStatus == EOperationStatus.Succeed;
-            yield break;
-        }
     }
 }
