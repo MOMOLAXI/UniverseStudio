@@ -20,7 +20,7 @@ MonoBehaviour:
   BuildMode: 0
   BuildPackage: Scene
   CompressOption: 2
-  OutputNameStyle: 1
-  CopyBuildinFileOption: 0
+  OutputNameStyle: 4
+  CopyBuildinFileOption: 1
   CopyBuildinFileTags: 
   EncyptionClassName: EncryptionNone
