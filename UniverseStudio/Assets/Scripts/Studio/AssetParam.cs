@@ -13,7 +13,7 @@ namespace UniverseStudio
         {
             EditorSimulateModeParameters parameters = new()
             {
-                SimulatePatchManifestPath = EditorSimulateModeHelper.SimulateBuild(packageName),
+                SimulatePatchManifestPath = EditorSimulateModeUtility.SimulateBuild(packageName),
                 PlayMode = EPlayMode.EditorSimulateMode
             };
 

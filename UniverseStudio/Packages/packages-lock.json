@@ -171,7 +171,7 @@
       "url": "https://packages.unity.cn"
     },
     "com.universe-studio.engine": {
-      "version": "file:D:/FuckingLibrary/Trunk/UniverseEngine",
+      "version": "file:E:/Misc/Studio/UniverseEngine",
       "depth": 0,
       "source": "local",
       "dependencies": {
